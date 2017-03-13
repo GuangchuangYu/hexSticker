@@ -55,57 +55,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.8, s_height=
 
 <img src="inst/figures/ggplot2.png" height=300"/>
 
-### ggtree
-
-``` r
-library(ggbio)
-library(biovizBase)
-library(Homo.sapiens)
-
-library(TxDb.Hsapiens.UCSC.hg19.knownGene)
-txdb <- TxDb.Hsapiens.UCSC.hg19.knownGene
-
-data(genesymbol, package = "biovizBase")
-wh <- genesymbol[c("BRCA1", "NBR1")]
-wh <- range(wh, ignore.strand = TRUE)
-
-gr.txdb <- crunch(txdb, which = wh)
-## change column to  model
-colnames(values(gr.txdb))[4] <- "model"
-grl <- split(gr.txdb, gr.txdb$tx_id)
-## fake some randome names
-set.seed(2016-10-25)
-names(grl) <- sample(LETTERS, size = length(grl), replace = TRUE)
-
-
-## the random tree
-
-library(ggtree)
-n <- names(grl) %>% unique %>% length
-set.seed(2016-10-25)
-tr <- rtree(n)
-set.seed(2016-10-25)
-tr$tip.label = sample(unique(names(grl)), n)
-
-p <- ggtree(tr, color='grey') + geom_tiplab(align=T, linesize=.05,
-                                            linetype='dashed', size=1.2, color='grey')
-
-##  align the alignment with tree
-p2 <- facet_plot(p, 'Alignment', grl, geom_alignment, inherit.aes=FALSE,
-                 alpha=.6, size=.1, mapping=aes(), color='grey', extend.size=.1)
-p2 <- p2 + theme_transparent() + theme(strip.text = element_blank())+xlim_tree(3.4)
-
-
-#################################
-library(hexSticker)
-sticker(p2, package="ggtree", p_x=1, p_y=1.5, p_size=9, s_x=.85, s_y = .68, s_width=.95, s_height=.65,
-        filename="inst/figures/ggtree.png")
-```
-
-<img src="inst/figures/ggtree.png" height=300"/>
-
-local image file
-----------------
+### local image file
 
 ``` r
 imgurl <- "http://www.belleamibengals.com/bengal_cat_2.png"
@@ -116,3 +66,8 @@ sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_h
 ```
 
 <img src="inst/figures/imgfile.png" height=300"/>
+
+Stickers produced by `hexSticker`
+---------------------------------
+
+<img src="https://guangchuangyu.github.io/ggtree/ggtree.png" height="128", align="right" />
