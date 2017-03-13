@@ -2,12 +2,57 @@
 hexSticker: create hexagon sticker in R
 =======================================
 
-I wrote a script to create [ggtree sticker](https://github.com/jotsetung/BioC-stickers/tree/master/ggtree) purely in `R`. Laurent create the [make\_sticker](https://github.com/jotsetung/BioC-stickers/issues/12) function based on my script and packed it to the [sticker](https://github.com/lgatto/sticker) package.
+Author
+------
 
-I have my own ideas of implementing the function and adding some new features, and also not to breaking their existing codes, so we have this `hexSticker` package.
+Guangchuang YU <https://guangchuangyu.github.io>
+
+School of Public Health, The University of Hong Kong
+
+------------------------------------------------------------------------
 
 Examples
 --------
+
+### base plot
+
+``` r
+library(hexSticker)
+sticker(expression(plot(cars)), package="hexSticker", p_size=8, s_x=1, s_y=.85, s_width=.5, s_height=.4, filename="inst/figures/baseplot.png")
+```
+
+![](README_files/figure-markdown_github/unnamed-chunk-2-1.png)![](README_files/figure-markdown_github/unnamed-chunk-2-2.png)![](README_files/figure-markdown_github/unnamed-chunk-2-3.png)
+
+<img src="inst/figures/baseplot.png" height=300"/>
+
+### lattice
+
+``` r
+library(lattice)
+
+counts <- c(18,17,15,20,10,20,25,13,12)
+outcome <- gl(3,1,9)
+treatment <- gl(3,3)
+bwplot <- bwplot(counts ~ outcome | treatment, xlab=NULL, ylab=NULL, cex=.5, scales=list(cex=.5), par.strip.text=list(cex=.5))
+sticker(bwplot, package="hexSticker", p_size=8, s_x=1.05, s_y=.75, s_width=1.1, s_height=.8, filename="inst/figures/lattice.png")
+```
+
+<img src="inst/figures/lattice.png" height=300"/>
+
+### ggplot2
+
+``` r
+library(ggplot2)
+
+p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
+p <- p + theme_void() + theme_transparent()
+
+sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.8, s_height=.45, filename="inst/figures/ggplot2.png")
+```
+
+<img src="inst/figures/ggplot2.png" height=300"/>
+
+### ggtree
 
 ``` r
 library(ggbio)
@@ -53,4 +98,4 @@ sticker(p2, package="ggtree", p_x=1, p_y=1.5, p_size=9, s_x=.85, s_y = .68, s_wi
 
 > the produced file has dimension exactly for printing according to <http://hexb.in/sticker.html>
 
-<img src="ggtree.png" height=300"/>
+<img src="inst/figures/ggtree.png" height=300"/>

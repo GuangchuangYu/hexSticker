@@ -7,7 +7,8 @@ Depends: R (>= 3.3.0)
 Imports:
     ggforce,
     ggplot2,
-    ggtree (>= 1.7.10),
+    ggtree (>= 1.6.11),
+    gridGraphics,
     showtext,
     sysfonts
 License: Artistic-2.0

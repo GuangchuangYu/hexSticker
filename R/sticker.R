@@ -48,11 +48,21 @@ save_sticker <- function(sticker, filename) {
 
 ## @importFrom grid grid.grabExpr
 ##' @importFrom ggplot2 ggplotGrob
+##' @importFrom gridGraphics grid.echo
+##' @importFrom grid grid.grab
 toGrob <- function(x) {
+    if (inherits(x, "expression")) {
+        x <- eval(x)
+        if (is.null(x)) {
+            grid.echo()
+            x <- grid.grab()
+        }
+    }
+
     if (inherits(x, "ggplot"))
         x <- ggplotGrob(x)
-    if (inherits(x, "lattice")) {
-        x <- grid::grid.grabExpr(x)
+    if (inherits(x, "trellis")) {
+        x <- grid::grid.grabExpr(print(x))
     }
 
     ## gridPLT for base plot
