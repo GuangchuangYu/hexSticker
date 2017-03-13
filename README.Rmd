@@ -117,5 +117,13 @@ sticker(p2, package="ggtree", p_x=1, p_y=1.5, p_size=9, s_x=.85, s_y = .68, s_wi
 
 
 
+## local image file
 
+```{r eval=F}
+imgurl <- "http://www.belleamibengals.com/bengal_cat_2.png"
+imgfile <- tempfile(fileext=".png")
+download.file(imgurl,imgfile,mode="wb")
+sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_height=.4, filename="inst/figures/imgfile.png")
+```
 
+<img src="inst/figures/imgfile.png" height=300"/>
