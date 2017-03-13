@@ -1,38 +1,21 @@
----
-output:
-  md_document:
-    variant: markdown_github
-html_preview: false
----
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+hexSticker: create hexagon sticker in R
+=======================================
 
-
-# hexSticker: create hexagon sticker in R
-
-I write a script to create
-[ggtree sticker](https://github.com/jotsetung/BioC-stickers/tree/master/ggtree)
-purely in `R`. Laurent create the
-[make_sticker](https://github.com/jotsetung/BioC-stickers/issues/12)
-function based on my script and pack it to the
-[sticker](https://github.com/lgatto/sticker) package.
-
-
+I write a script to create [ggtree sticker](https://github.com/jotsetung/BioC-stickers/tree/master/ggtree) purely in `R`. Laurent create the [make\_sticker](https://github.com/jotsetung/BioC-stickers/issues/12) function based on my script and pack it to the [sticker](https://github.com/lgatto/sticker) package.
 
 I have some new ideas to add new features:
 
-+ support base plot
-+ support image file
-+ etc.
+-   support base plot
+-   support image file
+-   etc.
 
+To avoid breaking their existing code to make stickers, I create this package for my own needs.
 
-To avoid breaking their existing code to make stickers, I create this
-package for my own needs.
+Examples
+--------
 
-
-## Examples
-
-```{r eval=FALSE}
+``` r
 library(ggbio)
 library(biovizBase)
 library(Homo.sapiens)
@@ -75,6 +58,3 @@ sticker(p2, package="ggtree", p_x=1, p_y=1.5, p_size=9, s_x=.85, s_y = .68, s_wi
 ```
 
 <img src="ggtree.png" height="150"/ >
-
-
-

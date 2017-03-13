@@ -1,0 +1,22 @@
+sticker <- function(x, package) {
+
+}
+
+
+add_pkg_name <- function(package, size, x, y, color) {
+
+
+}
+
+##' @importFrom ggplot2 ggplot
+##' @importFrom ggplot2 aes_
+##' @importFrom ggplot2 coord_fixed
+##' @importFrom ggforce geom_circle
+make_hex <- function(center, radius, size, fill, color) {
+    d <- data.frame(x0 = center, y0 = center, r = radius)
+    ggplot() +
+        geom_circle(aes_(x0 = ~x0, y0 = ~y0, r = ~r),
+                    size = 1.2, data = d, n = 5.5,
+                    fill = fill, color = color) +
+        coord_fixed()
+}

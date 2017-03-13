@@ -1,9 +1,20 @@
 Package: hexSticker
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.2)
-License: What license is it under?
+Title: Create Hexagon Sticker in R
+Version: 0.0.1
+Authors@R: person("Guangchuang", "Yu", email = "guangchuangyu@gmail.com", role = c("aut", "cre"))
+Description: Helper function for creating reproducible hexagon sticker purely in R.
+Depends: R (>= 3.3.0)
+Imports:
+    ggforce,
+    ggplot2,
+    ggtree (>= 1.7.10),
+    showtext,
+    sysfonts
+License: Artistic-2.0
+ByteCompile: true
+URL: https://github.com/GuangchuangYu/hexSticker
+BugReports: https://github.com/GuangchuangYu/hexSticker/issues
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 5.0.1
+
