@@ -14,6 +14,8 @@ School of Public Health, The University of Hong Kong
 Examples
 --------
 
+> `sticker` function will produce a file with dimension exactly for printing according to <http://hexb.in/sticker.html>
+
 ### base plot
 
 ``` r
@@ -93,8 +95,6 @@ p2 <- p2 + theme_transparent() + theme(strip.text = element_blank())+xlim_tree(3
 library(hexSticker)
 sticker(p2, package="ggtree", p_x=1, p_y=1.5, p_size=9, s_x=.85, s_y = .68, s_width=.95, s_height=.65)
 ```
-
-> the produced file has dimension exactly for printing according to <http://hexb.in/sticker.html>
 
 <img src="inst/figures/ggtree.png" height=300"/>
 
