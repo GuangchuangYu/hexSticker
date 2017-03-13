@@ -100,7 +100,7 @@ make_hex <- function(center=1, radius=1, size=1.2, fill, color) {
     d <- data.frame(x0 = center, y0 = center, r = radius)
     hex <- ggplot() +
         geom_circle(aes_(x0 = ~x0, y0 = ~y0, r = ~r),
-                    size = 1.2, data = d, n = 5.5,
+                    size = size, data = d, n = 5.5,
                     fill = fill, color = color) +
         coord_fixed() + theme_transparent() +
         theme(strip.text = element_blank()) +
