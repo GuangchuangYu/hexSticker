@@ -2,15 +2,9 @@
 hexSticker: create hexagon sticker in R
 =======================================
 
-I write a script to create [ggtree sticker](https://github.com/jotsetung/BioC-stickers/tree/master/ggtree) purely in `R`. Laurent create the [make\_sticker](https://github.com/jotsetung/BioC-stickers/issues/12) function based on my script and pack it to the [sticker](https://github.com/lgatto/sticker) package.
+I wrote a script to create [ggtree sticker](https://github.com/jotsetung/BioC-stickers/tree/master/ggtree) purely in `R`. Laurent create the [make\_sticker](https://github.com/jotsetung/BioC-stickers/issues/12) function based on my script and packed it to the [sticker](https://github.com/lgatto/sticker) package.
 
-I have some new ideas to add new features:
-
--   support base plot
--   support image file
--   etc.
-
-To avoid breaking their existing code to make stickers, I create this package for my own needs.
+I have my own ideas of implementing the function and adding some new features, and also not to breaking their existing code, I create this `hexSticker` package.
 
 Examples
 --------
