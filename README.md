@@ -70,4 +70,4 @@ sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_h
 Stickers produced by `hexSticker`
 ---------------------------------
 
-<img src="https://guangchuangyu.github.io/ggtree/ggtree.png" height="128"/> <img src="https://guangchuangyu.github.io/treeio/treeio.png" height="128"/>
+<img src="https://guangchuangyu.github.io/ggtree/ggtree.png" height="120"/> <img src="https://guangchuangyu.github.io/treeio/treeio.png" height="120"/>
