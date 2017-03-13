@@ -20,7 +20,7 @@ function based on my script and packed it to the
 
 
 I have my own ideas of implementing the function and adding some new
-features, and also not to breaking their existing code, I create this
+features, and also not to breaking their existing codes, so we have this
 `hexSticker` package.
 
 

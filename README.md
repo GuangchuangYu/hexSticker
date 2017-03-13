@@ -4,7 +4,7 @@ hexSticker: create hexagon sticker in R
 
 I wrote a script to create [ggtree sticker](https://github.com/jotsetung/BioC-stickers/tree/master/ggtree) purely in `R`. Laurent create the [make\_sticker](https://github.com/jotsetung/BioC-stickers/issues/12) function based on my script and packed it to the [sticker](https://github.com/lgatto/sticker) package.
 
-I have my own ideas of implementing the function and adding some new features, and also not to breaking their existing code, I create this `hexSticker` package.
+I have my own ideas of implementing the function and adding some new features, and also not to breaking their existing codes, so we have this `hexSticker` package.
 
 Examples
 --------
