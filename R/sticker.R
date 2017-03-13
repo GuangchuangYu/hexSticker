@@ -64,8 +64,6 @@ toGrob <- function(x) {
     if (inherits(x, "trellis")) {
         x <- grid::grid.grabExpr(print(x))
     }
-
-    ## gridPLT for base plot
     return(x)
 }
 
