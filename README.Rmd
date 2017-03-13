@@ -74,7 +74,8 @@ library(hexSticker)
 sticker(p2, package="ggtree", p_x=1, p_y=1.5, p_size=9, s_x=.85, s_y = .68, s_width=.95, s_height=.65)
 ```
 
-<img src="ggtree.png" height="150"/ >
+![](ggtree.png)
+
 
 
 
