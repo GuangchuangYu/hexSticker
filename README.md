@@ -21,8 +21,6 @@ library(hexSticker)
 sticker(expression(plot(cars)), package="hexSticker", p_size=8, s_x=1, s_y=.85, s_width=.5, s_height=.4, filename="inst/figures/baseplot.png")
 ```
 
-![](README_files/figure-markdown_github/unnamed-chunk-2-1.png)![](README_files/figure-markdown_github/unnamed-chunk-2-2.png)![](README_files/figure-markdown_github/unnamed-chunk-2-3.png)
-
 <img src="inst/figures/baseplot.png" height=300"/>
 
 ### lattice
@@ -99,3 +97,15 @@ sticker(p2, package="ggtree", p_x=1, p_y=1.5, p_size=9, s_x=.85, s_y = .68, s_wi
 > the produced file has dimension exactly for printing according to <http://hexb.in/sticker.html>
 
 <img src="inst/figures/ggtree.png" height=300"/>
+
+local image file
+----------------
+
+``` r
+imgurl <- "http://www.belleamibengals.com/bengal_cat_2.png"
+imgfile <- tempfile(fileext=".png")
+download.file(imgurl,imgfile,mode="wb")
+sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_height=.4, filename="inst/figures/imgfile.png")
+```
+
+<img src="inst/figures/imgfile.png" height=300"/>
