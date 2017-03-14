@@ -55,4 +55,3 @@ sticker(p, package="hexSticker")
 \author{
 guangchuang yu
 }
-

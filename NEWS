@@ -1,0 +1,9 @@
+CHANGES IN VERSION 0.0.2
+------------------------
+ o move package name to top layer <2017-03-14, Tue>
+   + https://github.com/GuangchuangYu/hexSticker/issues/3
+
+CHANGES IN VERSION 0.0.1
+------------------------
+ o initial version based on my script to generate ggtree sticker <2017-03-13, Mon>
+   + https://github.com/jotsetung/BioC-stickers/blob/master/ggtree/ggtree_sticker.R

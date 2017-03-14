@@ -34,17 +34,17 @@ School of Public Health, The University of Hong Kong
 
 ### base plot
 
-```{r eval=F}
+```{r eval=FALSE}
 library(hexSticker)
 sticker(expression(plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab="")), package="hexSticker",
-        p_size=8, s_x=1, s_y=.8, s_width=.8, s_height=.8, filename="inst/figures/baseplot.png")
+        p_size=8, s_x=1, s_y=.8, s_width=.6, s_height=.45, filename="inst/figures/baseplot.png")
 ```
 
 <img src="inst/figures/baseplot.png" height=300"/>
 
 ### lattice
 
-```{r eval=F}
+```{r fig.keep="none"}
 library(lattice)
 
 counts <- c(18,17,15,20,10,20,25,13,12)
@@ -60,7 +60,7 @@ sticker(bwplot, package="hexSticker", p_size=8, s_x=1.05, s_y=.75, s_width=1.1, 
 
 ### ggplot2
 
-```{r eval=F}
+```{r fig.keep="none"}
 library(ggplot2)
 
 p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
@@ -75,7 +75,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.8, s_height=
 
 ### local image file
 
-```{r eval=F}
+```{r fig.keep="none", message=FALSE}
 imgurl <- "http://www.belleamibengals.com/bengal_cat_2.png"
 imgfile <- tempfile(fileext=".png")
 download.file(imgurl,imgfile,mode="wb")

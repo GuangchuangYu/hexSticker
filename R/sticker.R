@@ -31,9 +31,9 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     filename = paste0(package, ".png")) {
     hex <- make_hex(size=h_size, fill=h_fill, color=h_color)
-    hex <- add_pkg_name(hex, package, p_x, p_y, p_color, p_family, p_size)
     subplot <- toGrob(subplot)
     sticker <- subview(hex, subplot, x=s_x, y=s_y, width=s_width, height=s_height)
+    sticker <- add_pkg_name(sticker, package, p_x, p_y, p_color, p_family, p_size)
     save_sticker(sticker, filename)
     invisible(sticker)
 }
