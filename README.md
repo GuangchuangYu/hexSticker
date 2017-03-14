@@ -20,7 +20,8 @@ Examples
 
 ``` r
 library(hexSticker)
-sticker(expression(plot(cars)), package="hexSticker", p_size=8, s_x=1, s_y=.85, s_width=.5, s_height=.4, filename="inst/figures/baseplot.png")
+sticker(expression(plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab="")), package="hexSticker",
+        p_size=8, s_x=1, s_y=.8, s_width=.8, s_height=.8, filename="inst/figures/baseplot.png")
 ```
 
 <img src="inst/figures/baseplot.png" height=300"/>
@@ -69,5 +70,10 @@ sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_h
 
 Stickers produced by `hexSticker`
 ---------------------------------
+
+> If you use `hexSticker` and want your sticker to be listed here, please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
+
+-   [ggtree](https://github.com/GuangchuangYu/ggtree)
+-   [treeio](https://github.com/GuangchuangYu/treeio)
 
 <img src="https://guangchuangyu.github.io/ggtree/ggtree.png" height="120"/> <img src="https://guangchuangyu.github.io/treeio/treeio.png" height="120"/>
