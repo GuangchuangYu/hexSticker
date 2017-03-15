@@ -73,7 +73,7 @@ Stickers produced by `hexSticker`
 
 > If you use `hexSticker` and want your sticker to be listed here, please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
 
--   [ggtree](https://github.com/GuangchuangYu/ggtree)
--   [treeio](https://github.com/GuangchuangYu/treeio)
+-   [ggtree](https://github.com/Bioconductor/BiocStickers/tree/master/ggtree)
+-   [treeio](https://github.com/Bioconductor/BiocStickers/tree/master/treeio)
 
 <img src="https://guangchuangyu.github.io/ggtree/ggtree.png" height="120"/> <img src="https://guangchuangyu.github.io/treeio/treeio.png" height="120"/>

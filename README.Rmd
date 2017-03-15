@@ -75,7 +75,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.8, s_height=
 
 ### local image file
 
-```{r fig.keep="none", message=FALSE}
+```{r fig.keep="none", message=FALSE, eval=FALSE}
 imgurl <- "http://www.belleamibengals.com/bengal_cat_2.png"
 imgfile <- tempfile(fileext=".png")
 download.file(imgurl,imgfile,mode="wb")
@@ -91,8 +91,8 @@ sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_h
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
 
-+ [ggtree](https://github.com/GuangchuangYu/ggtree)
-+ [treeio](https://github.com/GuangchuangYu/treeio)
++ [ggtree](https://github.com/Bioconductor/BiocStickers/tree/master/ggtree)
++ [treeio](https://github.com/Bioconductor/BiocStickers/tree/master/treeio)
 
 <img src="https://guangchuangyu.github.io/ggtree/ggtree.png" height="120"/>
 <img src="https://guangchuangyu.github.io/treeio/treeio.png" height="120"/>
