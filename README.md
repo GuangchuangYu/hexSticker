@@ -24,7 +24,7 @@ sticker(expression(plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=
         p_size=8, s_x=1, s_y=.8, s_width=.6, s_height=.45, filename="inst/figures/baseplot.png")
 ```
 
-<img src="inst/figures/baseplot.png" height=300"/>
+<img src="inst/figures/baseplot.png" height="300"/>
 
 ### lattice
 
@@ -40,7 +40,7 @@ sticker(bwplot, package="hexSticker", p_size=8, s_x=1.05, s_y=.75, s_width=1.1, 
         h_fill="#f9690e", h_color="#f39c12", filename="inst/figures/lattice.png")
 ```
 
-<img src="inst/figures/lattice.png" height=300"/>
+<img src="inst/figures/lattice.png" height="300"/>
 
 ### ggplot2
 
@@ -54,7 +54,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.8, s_height=
         filename="inst/figures/ggplot2.png")
 ```
 
-<img src="inst/figures/ggplot2.png" height=300"/>
+<img src="inst/figures/ggplot2.png" height="300"/>
 
 ### local image file
 
@@ -66,7 +66,7 @@ sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_h
         filename="inst/figures/imgfile.png")
 ```
 
-<img src="inst/figures/imgfile.png" height=300"/>
+<img src="inst/figures/imgfile.png" height="300"/>
 
 Stickers produced by `hexSticker`
 ---------------------------------
