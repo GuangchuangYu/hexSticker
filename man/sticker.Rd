@@ -5,9 +5,9 @@
 \title{sticker}
 \usage{
 sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4, s_height = 0.5,
-  package, p_x = 1, p_y = 1.4, p_color = "#FFFFFF", p_family = "Aller",
-  p_size = 6, h_size = 1.2, h_fill = "#1881C2", h_color = "#87B13F",
-  filename = paste0(package, ".png"))
+  package, p_x = 1, p_y = 1.4, p_color = "#FFFFFF",
+  p_family = "Aller_Rg", p_size = 6, h_size = 1.2, h_fill = "#1881C2",
+  h_color = "#87B13F", filename = paste0(package, ".png"))
 }
 \arguments{
 \item{subplot}{subplot}
@@ -55,3 +55,4 @@ sticker(p, package="hexSticker")
 \author{
 guangchuang yu
 }
+

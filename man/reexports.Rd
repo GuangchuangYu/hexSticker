@@ -5,7 +5,6 @@
 \alias{reexports}
 \alias{theme_transparent}
 \title{Objects exported from other packages}
-\keyword{internal}
 \description{
 These objects are imported from other packages. Follow the links
 below to see their documentation.
@@ -13,4 +12,5 @@ below to see their documentation.
 \describe{
   \item{ggtree}{\code{\link[ggtree]{theme_transparent}}}
 }}
+\keyword{internal}
 

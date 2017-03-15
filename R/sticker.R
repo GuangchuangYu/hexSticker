@@ -27,7 +27,7 @@
 ##' sticker(p, package="hexSticker")
 ##' @author guangchuang yu
 sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
-                    package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller", p_size=6,
+                    package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=6,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     filename = paste0(package, ".png")) {
     hex <- make_hex(size=h_size, fill=h_fill, color=h_color)
@@ -67,13 +67,20 @@ toGrob <- function(x) {
     return(x)
 }
 
+
 ##' @importFrom sysfonts font.add
 ##' @importFrom showtext showtext.auto
 ##' @importFrom ggplot2 annotate
 add_pkg_name <- function(hex, package, x, y, color, family, size) {
     if (family == "Aller") {
-        font <- system.file("fonts/Aller/Aller_Rg.ttf", package="hexSticker")
-        font.add(family, font)
+        family <- "Aller_Rg"
+    }
+
+    fonts <- list.files(system.file("fonts", package="hexSticker"),
+                        pattern="ttf$", recursive=TRUE, full.names=TRUE)
+    i <- family == sub(".ttf", "", basename(fonts))
+    if (any(i)) {
+        font.add(family, fonts[which(i)[1]])
         showtext.auto()
     }
 
