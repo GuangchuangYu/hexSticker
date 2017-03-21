@@ -1,6 +1,6 @@
 Package: hexSticker
 Title: Create Hexagon Sticker in R
-Version: 0.0.2
+Version: 0.1.0
 Authors@R: c(person(given = "Guangchuang", family = "Yu",
 	   	    email = "guangchuangyu@gmail.com",
 		    role = c("aut", "cre")),
@@ -18,8 +18,8 @@ Depends:
     R (>= 3.3.0)
 Imports:
     ggforce,
+    ggimage (>= 0.0.3),
     ggplot2,
-    ggtree (>= 1.6.11),
     gridGraphics,
     showtext,
     sysfonts

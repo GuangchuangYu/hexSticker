@@ -1,3 +1,8 @@
+CHANGES IN VERSION 0.1.0
+------------------------
+ o geom_hexagon, geom_pkgname, theme_sticker <2017-03-21, Tue>
+ o use ggimage::geom_subview and ggimage::geom_image <2017-03-21, Tue>
+
 CHANGES IN VERSION 0.0.2
 ------------------------
  o support select font typeface <2017-03-15, Wed>

@@ -2,6 +2,8 @@
 % Please edit documentation in R/sticker.R
 \docType{import}
 \name{reexports}
+\alias{geom_subview}
+\alias{ggplot}
 \alias{reexports}
 \alias{theme_transparent}
 \title{Objects exported from other packages}
@@ -10,7 +12,9 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{ggtree}{\code{\link[ggtree]{theme_transparent}}}
+  \item{ggimage}{\code{\link[ggimage]{geom_subview}}, \code{\link[ggimage]{theme_transparent}}}
+
+  \item{ggplot2}{\code{\link[ggplot2]{ggplot}}}
 }}
 \keyword{internal}
 

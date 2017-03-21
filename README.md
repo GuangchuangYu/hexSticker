@@ -21,7 +21,7 @@ Examples
 ``` r
 library(hexSticker)
 sticker(expression(plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab="")), package="hexSticker",
-        p_size=8, s_x=1, s_y=.8, s_width=.6, s_height=.45, filename="inst/figures/baseplot.png")
+        p_size=8, s_x=1, s_y=.8, s_width=1.2, s_height=1, filename="inst/figures/baseplot.png")
 ```
 
 <img src="inst/figures/baseplot.png" height="300"/>
@@ -36,7 +36,7 @@ outcome <- gl(3,1,9)
 treatment <- gl(3,3)
 bwplot <- bwplot(counts ~ outcome | treatment, xlab=NULL, ylab=NULL, cex=.5,
                  scales=list(cex=.5), par.strip.text=list(cex=.5))
-sticker(bwplot, package="hexSticker", p_size=8, s_x=1.05, s_y=.75, s_width=1.1, s_height=.8,
+sticker(bwplot, package="hexSticker", p_size=8, s_x=1.05, s_y=.75, s_width=2, s_height=1.5,
         h_fill="#f9690e", h_color="#f39c12", filename="inst/figures/lattice.png")
 ```
 
@@ -50,19 +50,17 @@ library(ggplot2)
 p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
 p <- p + theme_void() + theme_transparent()
 
-sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.8, s_height=.45,
+sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height=1,
         filename="inst/figures/ggplot2.png")
 ```
 
 <img src="inst/figures/ggplot2.png" height="300"/>
 
-### local image file
+### image file
 
 ``` r
 imgurl <- "http://www.belleamibengals.com/bengal_cat_2.png"
-imgfile <- tempfile(fileext=".png")
-download.file(imgurl,imgfile,mode="wb")
-sticker(imgfile, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6, s_height=.4,
+sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
         filename="inst/figures/imgfile.png")
 ```
 
