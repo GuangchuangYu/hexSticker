@@ -71,10 +71,12 @@ Stickers produced by `hexSticker`
 
 > If you use `hexSticker` and want your sticker to be listed here, please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
 
+-   [AnnotationFilter](https://github.com/Bioconductor/BiocStickers/tree/master/AnnotationFilter)
 -   [FamAgg](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 -   [ggtree](https://github.com/Bioconductor/BiocStickers/tree/master/ggtree)
+-   [MSnbase](https://github.com/Bioconductor/BiocStickers/tree/master/MSnbase)
 -   [mzR](https://github.com/Bioconductor/BiocStickers/tree/master/mzR)
 -   [treeio](https://github.com/Bioconductor/BiocStickers/tree/master/treeio)
 -   [xcms](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 
-<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg.png" height="120"/> <img src="https://guangchuangyu.github.io/ggtree/ggtree.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/mzR/mzR.png" height="120"/> <img src="https://guangchuangyu.github.io/treeio/treeio.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms.png" height="120"/>
+<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/AnnotationFilter/AnnotationFilter.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ggtree/ggtree.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/MSnbase/MSnbase.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/mzR/mzR.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/treeio/treeio.png" height="120"/> <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms.png" height="120"/>
