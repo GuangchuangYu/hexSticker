@@ -2,6 +2,8 @@
 hexSticker: create hexagon sticker in R
 =======================================
 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker) ![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green) ![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green) ![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green) [![gitter](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/GuangchuangYu/Bioinformatics)
+
 Author
 ------
 
