@@ -180,8 +180,8 @@ save_sticker <- function(filename, sticker=last_plot()) {
 ##' @export
 ##' @author guangchuang yu
 sticker_dev <- function() {
-    # if (!(all.equal(dev.size()[1], 1.728) && all.equal(dev.size()[2], 2)))
-    dev.new(width=1.728, height=2, noRStudioGD=TRUE)
+    # if (!(all.equal(dev.size()[1], sqrt(3)) && all.equal(dev.size()[2], 2)))
+    dev.new(width=sqrt(3), height=2, noRStudioGD=TRUE)
 }
 
 
