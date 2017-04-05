@@ -37,7 +37,7 @@
 sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=8,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
-                    spotlight=FALSE, l_x=1, l_y=.5, l_width=2, l_height=2,
+                    spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3,
                     filename = paste0(package, ".png")) {
 
     hex <- hexagon(size=h_size, fill=h_fill, color=h_color)
