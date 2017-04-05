@@ -7,7 +7,8 @@
 sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4, s_height = 0.5,
   package, p_x = 1, p_y = 1.4, p_color = "#FFFFFF",
   p_family = "Aller_Rg", p_size = 8, h_size = 1.2, h_fill = "#1881C2",
-  h_color = "#87B13F", filename = paste0(package, ".png"))
+  h_color = "#87B13F", spotlight = FALSE, l_x = 1, l_y = 0.5,
+  l_width = 2, l_height = 2, filename = paste0(package, ".png"))
 }
 \arguments{
 \item{subplot}{subplot}
@@ -37,6 +38,16 @@ sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4, s_height = 0.5,
 \item{h_fill}{color to fill hexagon}
 
 \item{h_color}{color for hexagon boder}
+
+\item{spotlight}{whether add spotlight}
+
+\item{l_x}{x position for spotlight}
+
+\item{l_y}{y positioin for spotlight}
+
+\item{l_width}{width for spotlight}
+
+\item{l_height}{height for spotlight}
 
 \item{filename}{filename to save sticker}
 }

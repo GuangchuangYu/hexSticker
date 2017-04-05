@@ -1,3 +1,8 @@
+CHANGES IN VERSION 0.2.0
+------------------------
+ o support spotlight <2017-04-05, Wed>
+   + <https://github.com/GuangchuangYu/hexSticker/issues/7>
+
 CHANGES IN VERSION 0.1.0
 ------------------------
  o geom_hexagon, geom_pkgname, theme_sticker <2017-03-21, Tue>
