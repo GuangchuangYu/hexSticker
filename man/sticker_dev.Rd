@@ -15,4 +15,3 @@ open dev for sticker
 \author{
 guangchuang yu
 }
-

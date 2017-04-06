@@ -22,4 +22,3 @@ empty hexagon
 \author{
 guangchuang yu
 }
-

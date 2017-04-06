@@ -2,11 +2,14 @@
 % Please edit documentation in R/sticker.R
 \docType{import}
 \name{reexports}
+\alias{reexports}
 \alias{geom_subview}
-\alias{ggplot}
 \alias{reexports}
 \alias{theme_transparent}
+\alias{reexports}
+\alias{ggplot}
 \title{Objects exported from other packages}
+\keyword{internal}
 \description{
 These objects are imported from other packages. Follow the links
 below to see their documentation.
@@ -16,5 +19,4 @@ below to see their documentation.
 
   \item{ggplot2}{\code{\link[ggplot2]{ggplot}}}
 }}
-\keyword{internal}
 

@@ -21,6 +21,7 @@
 ##' @param l_y y positioin for spotlight
 ##' @param l_width width for spotlight
 ##' @param l_height height for spotlight
+##' @param l_alpha maximum alpha for spotlight
 ##' @param filename filename to save sticker
 ##' @return gg object
 ##' @importFrom ggplot2 ggplot
@@ -37,7 +38,7 @@
 sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=8,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
-                    spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3,
+                    spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3, l_alpha=0.4,
                     filename = paste0(package, ".png")) {
 
     hex <- hexagon(size=h_size, fill=h_fill, color=h_color)
@@ -49,7 +50,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
     }
 
     if(spotlight)
-        sticker <- sticker + geom_subview(spotlight(), x=l_x, y=l_y, width=l_width, height=l_height)
+        sticker <- sticker + geom_subview(spotlight(l_alpha), x=l_x, y=l_y, width=l_width, height=l_height)
 
     sticker <- sticker + geom_pkgname(package, p_x, p_y, p_color, p_family, p_size)
 
@@ -72,20 +73,22 @@ hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
 }
 
 ##' @importFrom grDevices rgb
-##' @author Johannes Rainer
-whiteTrans <- function(n) {
-    rgb(red = rep(1, n), green = rep(1, n), blue = rep(1, n),
-        alpha = seq(0, 0.4, length.out = n))
+##' @author Johannes Rainer with modification from Guangchuang Yu
+whiteTrans <- function(n, alpha = 0.4) {
+    function(n) {
+        rgb(red = rep(1, n), green = rep(1, n), blue = rep(1, n),
+            alpha = seq(0, alpha, length.out = n))
+    }
 }
 
 ##' @importFrom stats rnorm
 ##' @importFrom hexbin hexbinplot
-##' @author Johannes Rainer
-spotlight <- function() {
+##' @author Johannes Rainer with modification from Guangchuang Yu
+spotlight <- function(alpha) {
     ## set.seed(123)
     vals_x <- rnorm(500000, sd = 2, mean = 0)
     vals_y <- rnorm(500000, sd = 2, mean = 0)
-    hexbinplot(vals_x ~ vals_y, colramp = whiteTrans, colorkey = FALSE,
+    hexbinplot(vals_x ~ vals_y, colramp = whiteTrans(alpha), colorkey = FALSE,
                bty = "n", scales = list(draw = FALSE), xlab = "", ylab = "",
                border = NA, par.settings = list(axis.line = list(col = NA)))
 }

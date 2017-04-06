@@ -22,4 +22,3 @@ geom layer of hexagon
 \author{
 guangchuang yu
 }
-
