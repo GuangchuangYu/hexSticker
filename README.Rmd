@@ -102,6 +102,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 + [mzR](https://github.com/Bioconductor/BiocStickers/tree/master/mzR)
 + [treeio](https://github.com/Bioconductor/BiocStickers/tree/master/treeio)
 + [xcms](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
++ [snakecase](https://github.com/Tazinho/snakecase)
 
 <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/AnnotationFilter/AnnotationFilter.png" height="120"/>
 <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg.png" height="120"/>
@@ -110,4 +111,5 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/mzR/mzR.png" height="120"/>
 <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/treeio/treeio.png" height="120"/>
 <img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms.png" height="120"/>
+<img src="https://github.com/Tazinho/snakecase/blob/master/snakecase05.png" height="120" />
 
