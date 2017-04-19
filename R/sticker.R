@@ -22,6 +22,12 @@
 ##' @param l_width width for spotlight
 ##' @param l_height height for spotlight
 ##' @param l_alpha maximum alpha for spotlight
+##' @param url url at lower border
+##' @param u_x x position for url
+##' @param u_y y position for url
+##' @param u_color color for url
+##' @param u_family font family for url
+##' @param u_size text size for url
 ##' @param filename filename to save sticker
 ##' @return gg object
 ##' @importFrom ggplot2 ggplot
@@ -39,6 +45,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=8,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3, l_alpha=0.4,
+                    url = "",  u_x=1, u_y=0.08, u_color="black", u_family="Aller_Rg", u_size=1.5,
                     filename = paste0(package, ".png")) {
 
     hex <- hexagon(size=h_size, fill=h_fill, color=h_color)
@@ -53,6 +60,8 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
         sticker <- sticker + geom_subview(spotlight(l_alpha), x=l_x, y=l_y, width=l_width, height=l_height)
 
     sticker <- sticker + geom_pkgname(package, p_x, p_y, p_color, p_family, p_size)
+
+    sticker <- sticker + geom_url(url, x=u_x, y = u_y, color = u_color, family = u_family, size=u_size)
 
     save_sticker(filename, sticker)
     invisible(sticker)
@@ -73,7 +82,7 @@ hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
 }
 
 ##' @importFrom grDevices rgb
-##' @author Johannes Rainer with modification from Guangchuang Yu
+##' @author Johannes Rainer with modification from Guangchuang Yu and Sebastian Gibb
 whiteTrans <- function(n, alpha = 0.4) {
     function(n) {
         rgb(red = rep(1, n), green = rep(1, n), blue = rep(1, n),
@@ -112,6 +121,14 @@ spotlight <- function(alpha) {
 ##' @export
 ##' @author guangchuang yu
 geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg", size=8, ...) {
+    family <- load_font(family)
+    d <- data.frame(x = x, y = y,
+                    label = package)
+    geom_text(aes_(x=~x, y=~y, label=~label), d,
+              size=size, color=color, family = family, ...)
+}
+
+load_font <- function(family) {
     if (family == "Aller") {
         family <- "Aller_Rg"
     }
@@ -123,12 +140,39 @@ geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg"
         font.add(family, fonts[which(i)[1]])
         showtext.auto()
     }
-    d <- data.frame(x = x, y = y,
-                    label = package)
-    geom_text(aes_(x=~x, y=~y, label=~label), d,
-              size=size, color=color, family = family, ...)
+    return(family)
 }
 
+##' add url at the lower border of the sticker
+##'
+##'
+##' @title geom_url
+##' @param url url
+##' @param x x position of url
+##' @param y y position of url
+##' @param family font family
+##' @param size size of url
+##' @param color color of url
+##' @param angle angle of url, default is 30
+##' @param hjust horizontal adjustment
+##' @param ... additional parameters to geom_text
+##' @return geom layer
+##' @export
+##' @author guangchuang yu
+geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg", size=1.5, color="black", angle=30, hjust=0, ...) {
+    family <- load_font(family)
+    d <- data.frame(x = x,
+                    y = y,
+                    url = url)
+    geom_text(aes_(x=~x, y=~y, label=~url),
+              data = d,
+              size = size,
+              color = color,
+              family = family,
+              angle = angle,
+              hjust = hjust,
+              ...)
+}
 
 ##' geom layer of hexagon
 ##'

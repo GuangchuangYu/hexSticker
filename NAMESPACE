@@ -3,6 +3,7 @@
 export(geom_hexagon)
 export(geom_pkgname)
 export(geom_subview)
+export(geom_url)
 export(ggplot)
 export(hexagon)
 export(save_sticker)

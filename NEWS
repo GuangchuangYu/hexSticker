@@ -1,3 +1,13 @@
+CHANGES IN VERSION 0.3.0
+------------------------
+ o URL at lower border of sticker <2017-04-19, Wed>
+   + https://github.com/GuangchuangYu/hexSticker/issues/9
+
+CHANGES IN VERSION 0.2.1
+------------------------
+ o bug fixed of whiteTrans <2017-04-19, Wed>
+   + https://github.com/GuangchuangYu/hexSticker/pull/8
+
 CHANGES IN VERSION 0.2.0
 ------------------------
  o support spotlight <2017-04-05, Wed>
