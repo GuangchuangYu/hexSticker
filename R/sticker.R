@@ -74,7 +74,7 @@ hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
 
 ##' @importFrom grDevices rgb
 ##' @author Johannes Rainer with modification from Guangchuang Yu
-whiteTrans <- function(n, alpha = 0.4) {
+whiteTrans <- function(alpha = 0.4) {
     function(n) {
         rgb(red = rep(1, n), green = rep(1, n), blue = rep(1, n),
             alpha = seq(0, alpha, length.out = n))
