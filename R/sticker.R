@@ -82,13 +82,8 @@ hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
 }
 
 ##' @importFrom grDevices rgb
-<<<<<<< HEAD
 ##' @author Johannes Rainer with modification from Guangchuang Yu and Sebastian Gibb
-whiteTrans <- function(n, alpha = 0.4) {
-=======
-##' @author Johannes Rainer with modification from Guangchuang Yu
 whiteTrans <- function(alpha = 0.4) {
->>>>>>> 712258599ca2f990528b0b9d2dbde8617a6e2439
     function(n) {
         rgb(red = rep(1, n), green = rep(1, n), blue = rep(1, n),
             alpha = seq(0, alpha, length.out = n))
