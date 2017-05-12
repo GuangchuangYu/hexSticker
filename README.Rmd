@@ -119,4 +119,8 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="" height="120"/>]()
 -->
 
+## Print/order stickers
+
+Sticker designers can choose to make their stickers available via [Sticker Mule](https://www.stickermule.com).
+
 

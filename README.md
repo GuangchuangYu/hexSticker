@@ -81,3 +81,7 @@ Stickers produced by `hexSticker`
 <!--
 [<img src="" height="120"/>]()
 -->
+Print/order stickers
+--------------------
+
+Sticker designers can choose to make their stickers available via [Sticker Mule](https://www.stickermule.com).
