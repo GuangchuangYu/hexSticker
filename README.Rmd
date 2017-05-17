@@ -51,7 +51,7 @@ sticker(expression(plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=
 
 ### lattice
 
-```{r fig.keep="none"}
+```{r fig.keep="none", eval=F}
 library(lattice)
 
 counts <- c(18,17,15,20,10,20,25,13,12)
@@ -67,7 +67,7 @@ sticker(bwplot, package="hexSticker", p_size=8, s_x=1.05, s_y=.75, s_width=2, s_
 
 ### ggplot2
 
-```{r fig.keep="none"}
+```{r fig.keep="none", eval=F}
 library(ggplot2)
 
 p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
@@ -98,6 +98,11 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
 
+### Stickers for software packages
+
+<!--
+[<img src="" height="120"/>]()
+-->
 
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/AnnotationFilter/AnnotationFilter_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/AnnotationFilter)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/cleaver/cleaver.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/cleaver)
@@ -109,18 +114,22 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRoloc.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRolocdata.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRolocGUI.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
-[<img src="https://raw.githubusercontent.com/Tazinho/snakecase/master/snakecase05.png" height="120" />](https://github.com/Tazinho/snakecase)
+[<img src="https://github.com/Tazinho/snakecase/raw/master/man/figures/snakecase05.png" height="120" />](https://github.com/Tazinho/snakecase)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/treeio/treeio.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/treeio)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 [<img src="https://raw.githubusercontent.com/drisso/zinb_analysis/master/sticker/zinbwave.png" height="120"/>](https://github.com/drisso/zinb_analysis/tree/master/sticker)
 
 
-<!--
-[<img src="" height="120"/>]()
--->
+### Stickers for events/workshops
+
+[<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/events/CSAMA/2017/CSAMA2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2017)
+
+### Stickers for fun
+
+[<img src="https://www.karada-good.net/wp/wp-content/uploads/2017/04/kemono-320x371.png" height="120"/>](https://www.karada-good.net/analyticsr/r-584)
 
 ## Print/order stickers
 
-Sticker designers can choose to make their stickers available via [Sticker Mule](https://www.stickermule.com).
+Sticker designers can make their stickers available via [Sticker Mule](https://www.stickermule.com).
 
 
