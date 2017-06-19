@@ -183,16 +183,21 @@ geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg",
 ##' @param color color of border
 ##' @return hexagon layer
 ##' @importFrom ggplot2 aes_
-##' @importFrom ggforce geom_circle
+##' @importFrom ggplot2 geom_polygon
+## @importFrom ggforce geom_circle
 ##' @export
 ##' @author guangchuang yu
 geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
-    center <- 1
-    radius <- 1
-    d <- data.frame(x0 = center, y0 = center, r = radius)
-    geom_circle(aes_(x0 = ~x0, y0 = ~y0, r = ~r),
-                size = size, data = d, n = 5.5,
-                fill = fill, color = color)
+    ## center <- 1
+    ## radius <- 1
+    ## d <- data.frame(x0 = center, y0 = center, r = radius)
+    ## geom_circle(aes_(x0 = ~x0, y0 = ~y0, r = ~r),
+    ##             size = size, data = d, n = 5.5,
+    ##             fill = fill, color = color)
+    hexd <- data.frame(x = 1+c(rep(-sqrt(3)/2, 2), 0, rep(sqrt(3)/2, 2), 0),
+                       y = 1+c(0.5, -0.5, -1, -0.5, 0.5, 1))
+    geom_polygon(aes_(x=~x, y=~y), data=hexd,
+                 size = size, fill = fill, color = color)
 }
 
 ##' sticker theme

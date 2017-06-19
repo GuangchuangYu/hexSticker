@@ -1,3 +1,7 @@
+CHANGES IN VERSION 0.4.0
+------------------------
+ o remove ggforce dependency <2017-06-19, Mon>
+
 CHANGES IN VERSION 0.3.0
 ------------------------
  o URL at lower border of sticker <2017-04-19, Wed>
