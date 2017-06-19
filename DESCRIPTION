@@ -1,6 +1,6 @@
 Package: hexSticker
 Title: Create Hexagon Sticker in R
-Version: 0.4.0
+Version: 0.4.1
 Authors@R: c(person(given = "Guangchuang", family = "Yu",
 	   	       email = "guangchuangyu@gmail.com",
 		         role = c("aut", "cre")),
