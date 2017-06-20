@@ -1,29 +1,18 @@
 Package: hexSticker
 Title: Create Hexagon Sticker in R
 Version: 0.4.1
-Authors@R: c(person(given = "Guangchuang", family = "Yu",
-	   	       email = "guangchuangyu@gmail.com",
-		         role = c("aut", "cre")),
-	     person(given = "Laurent",
-	            family = "Gatto",
-	            email = "lg390@cam.ac.uk",
-		          role = "ctb"),
-	     person(given = "Johannes", family = "Rainer",
-	       	    email = "johannes.rainer@eurac.edu",
-              role = "ctb"),
-        person(given = "Sebastian", family = "Gibb",
-               email = "mail@sebastiangibb.de",
-               role = "ctb")
-		    )
-Description: Helper functions for creating reproducible hexagon sticker purely
-    in R.
+Authors@R: c(person(given = "Guangchuang", family = "Yu",     email = "guangchuangyu@gmail.com",   role = c("aut", "cre")),
+             person(given = "Laurent",     family = "Gatto",  email = "lg390@cam.ac.uk",           role = "ctb"),
+             person(given = "Johannes",    family = "Rainer", email = "johannes.rainer@eurac.edu", role = "ctb"),
+             person(given = "Sebastian",   family = "Gibb",   email = "mail@sebastiangibb.de",     role = "ctb")
+             )
+Description: Helper functions for creating reproducible hexagon sticker purely in R.
 Depends:
     R (>= 3.3.0)
 Imports:
     ggimage (>= 0.0.3),
     ggplot2,
     grDevices,
-    gridGraphics,
     hexbin,
     showtext,
     stats,
