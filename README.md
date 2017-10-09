@@ -85,7 +85,7 @@ Stickers produced by `hexSticker`
 
 ### Stickers for events/workshops
 
-[<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/events/CSAMA/2017/CSAMA2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2017)
+[<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/events/CSAMA/2017/CSAMA2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2017) [<img src="https://github.com/Bioconductor/BiocStickers/raw/master/events/EuroBioc2017/EuroBioc2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/EuroBioc2017)
 
 ### Stickers for fun
 
