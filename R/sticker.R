@@ -53,11 +53,11 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
         d <- data.frame(x=s_x, y=s_y, image=subplot)
         sticker <- hex + geom_image(aes_(x=~x, y=~y, image=~image), d, size=s_width)
     } else {
-        sticker <- hex + geom_subview(subplot, x=s_x, y=s_y, width=s_width, height=s_height)
+        sticker <- hex + geom_subview(subview=subplot, x=s_x, y=s_y, width=s_width, height=s_height)
     }
 
     if(spotlight)
-        sticker <- sticker + geom_subview(spotlight(l_alpha), x=l_x, y=l_y, width=l_width, height=l_height)
+        sticker <- sticker + geom_subview(subview=spotlight(l_alpha), x=l_x, y=l_y, width=l_width, height=l_height)
 
     sticker <- sticker + geom_pkgname(package, p_x, p_y, p_color, p_family, p_size)
 
