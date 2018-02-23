@@ -106,6 +106,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/AnnotationFilter/AnnotationFilter_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/AnnotationFilter)
 [<img src="https://github.com/lpantano/bcbioSmallRna/raw/master/inst/sticker/bcbioSmallRna.png" height="120"/>](https://github.com/lpantano/bcbioSmallRna)
+[<img src="https://raw.githubusercontent.com/bcgov/bcmaps/master/inst/sticker/bcmaps.png" height="120"/>](https://github.com/bcgov/bcmaps)
 [<img src="https://github.com/Bioconductor/BiocStickers/raw/master/BiocFileCache/BiocFileCache.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/BiocFileCache)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ChIPseeker/ChIPseeker.png" height="120"/>](https://guangchuangyu.github.io/ChIPseeker)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/cleaver/cleaver.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/cleaver)
@@ -116,6 +117,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://raw.githubusercontent.com/strengejacke/ggeffects/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/ggeffects)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ggtree/ggtree.png" height="120"/>](https://guangchuangyu.github.io/ggtree)
 [<img src="https://github.com/muschellij2/glassdoor/raw/master/sticker.png" height="120"/>](https://github.com/muschellij2/glassdoor)
+[<img src="https://github.com/greta-dev/greta/blob/master/logos/greta_hex.png" height="120"/>](https://github.com/greta-dev/greta/tree/master/logos)
 [<img src="https://github.com/lpantano/isomiRs/raw/master/inst/stickers/isomirs.png" height="120"/>](https://github.com/lpantano/isomiRs)
 [<img src="https://github.com/wjakethompson/jayhawkdown/raw/master/hex_logo/jayhawkdown.png" height="120"/>](https://github.com/wjakethompson/jayhawkdown)
 [<img src="https://github.com/graemeleehickey/joineR/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineR)
@@ -126,9 +128,11 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
 [<img src="https://raw.githubusercontent.com/EnriquePH/OEIS.R/master/sticker/OEIS.R-sticker.png" height="120"/>](https://github.com/EnriquePH/OEIS.R)
 [<img src="https://raw.githubusercontent.com/ox-it/oidnChaRts/master/data-raw/oidnChaRt-sticker.png" height="120"/>](https://github.com/ox-it/oidnChaRts/tree/master/data-raw)
+[<img src="https://raw.githubusercontent.com/cbg-ethz/perturbatr/122cdd1516aa13d967677050dbf4fe08cfe66c7c/inst/figure/sticker.png" height="120"/>](https://github.com/cbg-ethz/perturbatr)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRoloc.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRolocdata.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRolocGUI.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
+[<img src="https://raw.githubusercontent.com/justinmillar/r-gators-hex/master/r-gators.png" height="120"/>](https://github.com/justinmillar/r-gators-hex)
 [<img src="https://raw.githubusercontent.com/strengejacke/sjmisc/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjmisc)
 [<img src="https://raw.githubusercontent.com/strengejacke/sjPlot/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjPlot)
 [<img src="https://raw.githubusercontent.com/strengejacke/sjstats/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjstats)
@@ -144,6 +148,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 ### Stickers for events/workshops
 
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/events/CSAMA/2017/CSAMA2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2017)
+[<img src="https://github.com/Bioconductor/BiocStickers/blob/master/events/CSAMA/2018/CSAMA2018.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2018)
 [<img src="https://github.com/Bioconductor/BiocStickers/raw/master/events/EuroBioc2017/EuroBioc2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/EuroBioc2017)
 
 ### Stickers for fun
