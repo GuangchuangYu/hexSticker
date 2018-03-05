@@ -94,6 +94,8 @@ Stickers produced by `hexSticker`
 ### Stickers for organizations
 
 [<img src="https://shanmdphd.github.io/hex/cryptokor.png" height="120"/>](https://github.com/cryptokor)
+[<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
+
 
 Print/order stickers
 --------------------
