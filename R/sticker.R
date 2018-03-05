@@ -115,8 +115,6 @@ spotlight <- function(alpha) {
 ##' @param size font size
 ##' @param ... addition parameters passed to geom_text()
 ##' @return package name layer
-##' @importFrom sysfonts font.add
-##' @importFrom showtext showtext.auto
 ##' @importFrom ggplot2 geom_text
 ##' @export
 ##' @author guangchuang yu
@@ -128,6 +126,8 @@ geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg"
               size=size, color=color, family = family, ...)
 }
 
+##' @importFrom sysfonts font_add
+##' @importFrom showtext showtext_auto
 load_font <- function(family) {
     if (family == "Aller") {
         family <- "Aller_Rg"
@@ -137,8 +137,8 @@ load_font <- function(family) {
                         pattern="ttf$", recursive=TRUE, full.names=TRUE)
     i <- family == sub(".ttf", "", basename(fonts))
     if (any(i)) {
-        font.add(family, fonts[which(i)[1]])
-        showtext.auto()
+        font_add(family, fonts[which(i)[1]])
+        showtext_auto()
     }
     return(family)
 }
