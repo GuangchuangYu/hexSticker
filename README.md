@@ -29,7 +29,7 @@ Install the hexSticker package via CRAN:
 install.packages("hexSticker")
 ```
 
-You can also install the package via my Github repository.
+You can also install the package via the Github repository.
 
 ``` r
 # install.package("devtools")   #In case you have not installed it.
@@ -43,12 +43,12 @@ Fail to install
 
 imageMagick is required to draw the sticker. If you have not installed
 it, please try the following
-[approachs](https://www.imagemagick.org/script/download.php) to install
-the imageMagick.
+[approachs](https://www.imagemagick.org/script/download.php).
 
 ### Fail to load ‘sysfonts’
 
-In Mac os, you may need to reinstall the sysfornt to properly load it.
+In Mac OS, you may need to re-install *sysfornt* to properly load it.
+
 Be sure to install *xqartz* first.
 
 ``` r
