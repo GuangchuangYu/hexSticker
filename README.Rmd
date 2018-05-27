@@ -54,13 +54,13 @@ devtools::install_github("GuangchuangYu/hexSticker")
 
 ### imageMagick
 
-imageMagick is required to draw the sticker.  If you have not installed it, please try the following [approachs](https://www.imagemagick.org/script/download.php).
+`imageMagick` is required for installing `hexSticker`.  If you have not installed it, please try the following [approachs](https://www.imagemagick.org/script/download.php).
 
 ### Fail to load 'sysfonts' 
  
-In Mac OS, you may need to re-install *sysfornt* to properly load it.  
+In Mac OS, you may need to re-install `sysfornt` to properly load it.  
 
-Be sure to install *xqartz* first.
+Be sure to install `xqartz` first.
 
 ```{r, eval=FALSE}
 brew update && brew install homebrew/cask/xquartz
