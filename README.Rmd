@@ -176,6 +176,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://raw.githubusercontent.com/strengejacke/sjstats/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjstats)
 [<img src="https://github.com/emsweene/oasis/raw/master/sticker.png" height="120"/>](https://github.com/emsweene/oasis)
 [<img src="https://user-images.githubusercontent.com/9893806/34084712-02f8698a-e33a-11e7-86e7-ce60bf51fe86.png" height="120"/>](https://github.com/Bohdan-Khomtchouk/shinyheatmap)
+[<img src="https://raw.githubusercontent.com/cwthom/shinyhelper/master/data-raw/shinyhelper.png" height="120"/>](https://github.com/cwthom/shinyhelper)
 [<img src="https://github.com/Tazinho/snakecase/raw/master/man/figures/snakecase05.png" height="120" />](https://github.com/Tazinho/snakecase)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/treeio/treeio.png" height="120"/>](https://www.bioconductor.org/packages/treeio)
 [<img src="https://raw.githubusercontent.com/wenlong-liu/usfertilizer_sticker/master/usfertilizer.png" height="120"/>](https://github.com/wenlong-liu/usfertilizer)
@@ -183,8 +184,6 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://github.com/neuroconductor/WhiteStripe/raw/master/sticker.png" height="120"/>](https://github.com/neuroconductor/WhiteStripe)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 [<img src="https://raw.githubusercontent.com/drisso/zinb_analysis/master/sticker/zinbwave.png" height="120"/>](https://github.com/drisso/zinb_analysis/tree/master/sticker)
-[<img src="https://raw.githubusercontent.com/cwthom/shinyhelper/master/data-raw/shinyhelper.png" height="120"/>]
-(https://github.com/cwthom/shinyhelper)
 
 
 ### Stickers for events/workshops
