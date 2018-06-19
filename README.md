@@ -36,7 +36,7 @@ Fail to install
 
 ### imageMagick
 
-`imageMagick` is required for installing `hexSticker`. If you have not installed it, please try the following [approachs](https://www.imagemagick.org/script/download.php).
+`imageMagick` is required for installing `hexSticker`. If you have not installed it, please try the following [approaches](https://www.imagemagick.org/script/download.php).
 
 ### Fail to load 'sysfonts'
 
