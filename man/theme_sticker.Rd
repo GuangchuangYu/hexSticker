@@ -4,9 +4,11 @@
 \alias{theme_sticker}
 \title{theme_sticker}
 \usage{
-theme_sticker(...)
+theme_sticker(size, ...)
 }
 \arguments{
+\item{size}{size of hexagon border}
+
 \item{...}{additional parameters passed to theme()}
 }
 \value{

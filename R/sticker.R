@@ -78,7 +78,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
 ##' @export
 ##' @author guangchuang yu
 hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
-    ggplot() + geom_hexagon(size=size, fill=fill, color=color) + theme_sticker()
+    ggplot() + geom_hexagon(size=size, fill=fill, color=color) + theme_sticker(size)
 }
 
 ##' @importFrom grDevices rgb
@@ -196,6 +196,7 @@ geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
     ##             fill = fill, color = color)
     hexd <- data.frame(x = 1+c(rep(-sqrt(3)/2, 2), 0, rep(sqrt(3)/2, 2), 0),
                        y = 1+c(0.5, -0.5, -1, -0.5, 0.5, 1))
+    hexd <- rbind(hexd, hexd[1, ])                   
     geom_polygon(aes_(x=~x, y=~y), data=hexd,
                  size = size, fill = fill, color = color)
 }
@@ -204,6 +205,7 @@ geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
 ##'
 ##'
 ##' @title theme_sticker
+##' @param size size of hexagon border
 ##' @param ... additional parameters passed to theme()
 ##' @return theme for sticker
 ##' @importFrom ggplot2 coord_fixed
@@ -211,25 +213,25 @@ geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
 ##' @importFrom ggplot2 element_blank
 ##' @importFrom ggplot2 scale_x_continuous
 ##' @importFrom ggplot2 scale_y_continuous
+##' @importFrom ggplot2 margin
 ##' @importFrom ggimage theme_transparent
 ##' @export
 ##' @author guangchuang yu
-theme_sticker <- function(...) {
+theme_sticker <- function(size=1.2, ...) {
     center <- 1
     radius <- 1
     h <- radius
     w <- sqrt(3)/2 * radius
     m <- 1.02
-
     list(theme_transparent() +
-         theme(plot.margin = grid::unit(c(0, 0, -0.2, -0.2), "lines"),
+         theme(plot.margin = margin(b = -.2, l= -.2, unit = "lines"),
                strip.text = element_blank(),
                line = element_blank(),
                text = element_blank(),
                title = element_blank(), ...),
-         coord_fixed(),
-         scale_y_continuous(expand = c(0, 0), limits = c(center-h*m, center+h*m)),
-         scale_x_continuous(expand = c(0, 0), limits = c(center-w*m, center+w*m))
+         coord_fixed(clip = "off"),
+         scale_y_continuous(expand = c(0, size/sqrt(3)/44), limits = c(center-h*m , center+h*m )),
+         scale_x_continuous(expand = c(0, 0), limits = c(center-w*m , center+w*m ))
          )
 }
 
