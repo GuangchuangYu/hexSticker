@@ -229,7 +229,7 @@ theme_sticker <- function(size=1.2, ...) {
                line = element_blank(),
                text = element_blank(),
                title = element_blank(), ...),
-         coord_fixed(clip = "off"),
+         coord_fixed(),
          scale_y_continuous(expand = c(0, size/sqrt(3)/44), limits = c(center-h*m , center+h*m )),
          scale_x_continuous(expand = c(0, 0), limits = c(center-w*m , center+w*m ))
          )
