@@ -15,7 +15,7 @@
 ##' @param p_size font size for package name
 ##' @param h_size size for hexagon border
 ##' @param h_fill color to fill hexagon
-##' @param h_color color for hexagon boder
+##' @param h_color color for hexagon border
 ##' @param spotlight whether add spotlight
 ##' @param l_x x position for spotlight
 ##' @param l_y y positioin for spotlight
