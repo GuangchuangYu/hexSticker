@@ -18,7 +18,7 @@
 ##' @param h_color color for hexagon border
 ##' @param spotlight whether add spotlight
 ##' @param l_x x position for spotlight
-##' @param l_y y positioin for spotlight
+##' @param l_y y position for spotlight
 ##' @param l_width width for spotlight
 ##' @param l_height height for spotlight
 ##' @param l_alpha maximum alpha for spotlight
@@ -196,7 +196,7 @@ geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
     ##             fill = fill, color = color)
     hexd <- data.frame(x = 1+c(rep(-sqrt(3)/2, 2), 0, rep(sqrt(3)/2, 2), 0),
                        y = 1+c(0.5, -0.5, -1, -0.5, 0.5, 1))
-    hexd <- rbind(hexd, hexd[1, ])                   
+    hexd <- rbind(hexd, hexd[1, ])
     geom_polygon(aes_(x=~x, y=~y), data=hexd,
                  size = size, fill = fill, color = color)
 }
