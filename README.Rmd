@@ -208,6 +208,6 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 
 ## Print/order stickers
 
-Sticker designers can make their stickers available via [Sticker Mule](https://www.stickermule.com).
+Sticker designers can make their stickers available via [Sticker Mule](https://www.stickermule.com/uses/hexagon-stickers).
 
 

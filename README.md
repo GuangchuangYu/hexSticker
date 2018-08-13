@@ -195,4 +195,4 @@ Print/order stickers
 --------------------
 
 Sticker designers can make their stickers available via [Sticker
-Mule](https://www.stickermule.com).
+Mule](https://www.stickermule.com/uses/hexagon-stickers).
