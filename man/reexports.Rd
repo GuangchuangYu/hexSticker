@@ -4,9 +4,7 @@
 \name{reexports}
 \alias{reexports}
 \alias{geom_subview}
-\alias{reexports}
 \alias{theme_transparent}
-\alias{reexports}
 \alias{ggplot}
 \title{Objects exported from other packages}
 \keyword{internal}

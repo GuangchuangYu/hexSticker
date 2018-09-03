@@ -4,12 +4,14 @@
 \alias{save_sticker}
 \title{save_sticker}
 \usage{
-save_sticker(filename, sticker = last_plot())
+save_sticker(filename, sticker = last_plot(), ...)
 }
 \arguments{
 \item{filename}{file name}
 
 \item{sticker}{sticker}
+
+\item{...}{additional parameters for ggsave}
 }
 \description{
 save sticker to file

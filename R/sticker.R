@@ -242,16 +242,17 @@ theme_sticker <- function(size=1.2, ...) {
 ##' @title save_sticker
 ##' @param filename file name
 ##' @param sticker sticker
+##' @param ... additional parameters for ggsave
 ##' @return NULL
 ##' @importFrom ggplot2 ggsave
 ##' @importFrom ggplot2 last_plot
 ##' @export
 ##' @author guangchuang yu
-save_sticker <- function(filename, sticker=last_plot()) {
+save_sticker <- function(filename, sticker=last_plot(), ...) {
     ggsave(sticker, width = 43.9, height = 50.8,
            filename = filename,
            bg = 'transparent',
-           units = "mm")
+           units = "mm", ...)
 }
 
 ##' open dev for sticker
