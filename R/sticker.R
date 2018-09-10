@@ -29,6 +29,7 @@
 ##' @param u_family font family for url
 ##' @param u_size text size for url
 ##' @param filename filename to save sticker
+##' @param dpi plot resolution
 ##' @return gg object
 ##' @importFrom ggplot2 ggplot
 ##' @importFrom ggplot2 aes_
@@ -46,7 +47,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3, l_alpha=0.4,
                     url = "",  u_x=1, u_y=0.08, u_color="black", u_family="Aller_Rg", u_size=1.5,
-                    filename = paste0(package, ".png")) {
+                    filename = paste0(package, ".png"), dpi = 300) {
 
     hex <- hexagon(size=h_size, fill=h_fill, color=h_color)
     if (inherits(subplot, "character")) {
@@ -63,7 +64,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
 
     sticker <- sticker + geom_url(url, x=u_x, y = u_y, color = u_color, family = u_family, size=u_size)
 
-    save_sticker(filename, sticker)
+    save_sticker(filename, sticker, dpi = dpi)
     invisible(sticker)
 }
 
@@ -159,7 +160,8 @@ load_font <- function(family) {
 ##' @return geom layer
 ##' @export
 ##' @author guangchuang yu
-geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg", size=1.5, color="black", angle=30, hjust=0, ...) {
+geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg",
+                     size=1.5, color="black", angle=30, hjust=0, ...) {
     family <- load_font(family)
     d <- data.frame(x = x,
                     y = y,

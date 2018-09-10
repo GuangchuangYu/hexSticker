@@ -11,7 +11,7 @@ sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4,
   l_x = 1, l_y = 0.5, l_width = 3, l_height = 3, l_alpha = 0.4,
   url = "", u_x = 1, u_y = 0.08, u_color = "black",
   u_family = "Aller_Rg", u_size = 1.5, filename = paste0(package,
-  ".png"))
+  ".png"), dpi = 300)
 }
 \arguments{
 \item{subplot}{subplot}
@@ -67,6 +67,8 @@ sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4,
 \item{u_size}{text size for url}
 
 \item{filename}{filename to save sticker}
+
+\item{dpi}{plot resolution}
 }
 \value{
 gg object
