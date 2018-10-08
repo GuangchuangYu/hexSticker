@@ -1,27 +1,26 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-hexSticker: create hexagon sticker in R
-=======================================
+
+# hexSticker: create hexagon sticker in R
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 ![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green)
 ![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)
 ![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)
 
-Author
-------
+## Author
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
-School of Public Health, The University of Hong Kong
+School of Public Health, The University of Hong
+Kong
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-微信-green.svg?style=flat)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
 [![](https://img.shields.io/badge/打赏-支付宝/微信-green.svg?style=flat)](https://guangchuangyu.github.io/blog_images/pay_qrcode.png)
 
-------------------------------------------------------------------------
+-----
 
-Installation
-------------
+## Installation
 
 Install the hexSticker package via CRAN:
 
@@ -36,8 +35,7 @@ You can also install the package via the Github repository.
 devtools::install_github("GuangchuangYu/hexSticker")
 ```
 
-Fail to install
----------------
+## Fail to install
 
 ### imageMagick
 
@@ -55,10 +53,9 @@ Be sure to install `xqartz` first.
 brew update && brew install homebrew/cask/xquartz
 ```
 
-------------------------------------------------------------------------
+-----
 
-Examples
---------
+## Examples
 
 > `sticker` function will produce a file with dimension exactly for
 > printing according to <http://hexb.in/sticker.html>
@@ -114,10 +111,9 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 
 <img src="inst/figures/imgfile.png" height="300"/>
 
-------------------------------------------------------------------------
+-----
 
-Stickers produced by `hexSticker`
----------------------------------
+## Stickers produced by `hexSticker`
 
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
@@ -128,6 +124,7 @@ Stickers produced by `hexSticker`
 <!--
 [<img src="" height="120"/>]()
 -->
+
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/AnnotationFilter/AnnotationFilter_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/AnnotationFilter)
 [<img src="https://github.com/lpantano/bcbioSmallRna/raw/master/inst/sticker/bcbioSmallRna.png" height="120"/>](https://github.com/lpantano/bcbioSmallRna)
 [<img src="https://raw.githubusercontent.com/bcgov/bcmaps/master/inst/sticker/bcmaps.png" height="120"/>](https://github.com/bcgov/bcmaps)
@@ -192,9 +189,9 @@ Stickers produced by `hexSticker`
 
 [<img src="https://shanmdphd.github.io/hex/cryptokor.png" height="120"/>](https://github.com/cryptokor)
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
+[<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
 
-Print/order stickers
---------------------
+## Print/order stickers
 
 Sticker designers can make their stickers available via [Sticker
 Mule](https://www.stickermule.com/uses/hexagon-stickers).
