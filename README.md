@@ -11,8 +11,8 @@
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
-School of Public Health, The University of Hong
-Kong
+School of Basic Medical Sciences, Southern Medical
+University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-微信-green.svg?style=flat)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
