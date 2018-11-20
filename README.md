@@ -169,6 +169,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://raw.githubusercontent.com/strengejacke/sjstats/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjstats)
 [<img src="https://github.com/Tazinho/snakecase/raw/master/man/figures/snakecase05.png" height="120" />](https://github.com/Tazinho/snakecase)
 [<img src="https://raw.githubusercontent.com/pdrhlik/southparkr/master/sticker/southparkr-sticker.png" height="120" />](https://github.com/pdrhlik/southparkr)
+[<img src="https://github.com/rrrlw/TDAstats/blob/master/man/figures/HexTDA.png" height="120" />](https://github.com/rrrlw/TDAstats)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/treeio/treeio.png" height="120"/>](https://www.bioconductor.org/packages/treeio)
 [<img src="https://raw.githubusercontent.com/wenlong-liu/usfertilizer_sticker/master/usfertilizer.png" height="120"/>](https://github.com/wenlong-liu/usfertilizer)
 [<img src="https://raw.githubusercontent.com/sjmgarnier/viridis/master/hex_logo/viridis.png" height="120"/>](https://github.com/sjmgarnier/viridis)
