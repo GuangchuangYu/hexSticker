@@ -15,8 +15,8 @@ School of Basic Medical Sciences, Southern Medical
 University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
-[![](https://img.shields.io/badge/follow%20me%20on-微信-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
-[![](https://img.shields.io/badge/打赏-支付宝/微信-green.svg)](https://guangchuangyu.github.io/blog_images/pay_qrcode.png)
+[![](https://img.shields.io/badge/follow%20me%20on-微信-green.svg?style=flat)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
+[![](https://img.shields.io/badge/打赏-支付宝/微信-green.svg?style=flat)](https://guangchuangyu.github.io/blog_images/pay_qrcode.png)
 
 -----
 
@@ -162,6 +162,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRolocGUI.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
 [<img src="https://github.com/Yue-Jiang/pzfx/blob/master/man/figures/logo.png" height="120"/>](https://github.com/Yue-Jiang/pzfx)
 [<img src="https://raw.githubusercontent.com/justinmillar/r-gators-hex/master/r-gators.png" height="120"/>](https://github.com/justinmillar/r-gators-hex)
+[<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
 [<img src="https://github.com/thiyangt/seer/blob/master/logo/seer.png" height="120"/>](https://github.com/thiyangt/seer/blob/master/logo/seer.png)
 [<img src="https://user-images.githubusercontent.com/9893806/34084712-02f8698a-e33a-11e7-86e7-ce60bf51fe86.png" height="120"/>](https://github.com/Bohdan-Khomtchouk/shinyheatmap)
 [<img src="https://raw.githubusercontent.com/cwthom/shinyhelper/master/data-raw/shinyhelper.png" height="120"/>](https://github.com/cwthom/shinyhelper)
