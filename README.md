@@ -118,6 +118,9 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
 > [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
+>
+> Then re-knit [README.md](https://github.com/GuangchuangYu/hexSticker/blob/master/README.md) by
+> `rmarkdown::render("README.Rmd")`.
 
 ### Stickers for software packages
 
