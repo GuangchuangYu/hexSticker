@@ -202,5 +202,5 @@ Mule](https://www.stickermule.com/uses/hexagon-stickers).
 
 ## Related Tools
 
-Badge to display information of software packages can be generated
-purely in `R` via [badger](https://github.com/GuangchuangYu/badger).
+  - [badger](https://github.com/GuangchuangYu/badger): Query information
+    and generate badge for using in README and GitHub Pages.
