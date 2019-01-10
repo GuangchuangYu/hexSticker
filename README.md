@@ -15,8 +15,8 @@ School of Basic Medical Sciences, Southern Medical
 University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
-[![](https://img.shields.io/badge/follow%20me%20on-微信-green.svg?style=flat)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
-[![](https://img.shields.io/badge/打赏-支付宝/微信-green.svg?style=flat)](https://guangchuangyu.github.io/blog_images/pay_qrcode.png)
+[![](https://img.shields.io/badge/follow%20me%20on-微信-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
+[![](https://img.shields.io/badge/打赏-支付宝/微信-green.svg)](https://guangchuangyu.github.io/blog_images/pay_qrcode.png)
 
 -----
 
@@ -118,9 +118,6 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
 > [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
->
-> Then re-knit [README.md](https://github.com/GuangchuangYu/hexSticker/blob/master/README.md) by
-> `rmarkdown::render("README.Rmd")`.
 
 ### Stickers for software packages
 
@@ -197,6 +194,11 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://shanmdphd.github.io/hex/cryptokor.png" height="120"/>](https://github.com/cryptokor)
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
 [<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
+
+## Related Tools
+
+Badge to display information of software packages can be generated
+purely in `R` via [badger](https://github.com/GuangchuangYu/badger).
 
 ## Print/order stickers
 
