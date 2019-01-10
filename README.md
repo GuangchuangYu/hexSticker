@@ -3,9 +3,9 @@
 # hexSticker: create hexagon sticker in R
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
-![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green)
-![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)
-![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)
+[![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
+[![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
+[![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 
 ## Author
 
@@ -117,7 +117,8 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
-> [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd).
+> [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd),
+> and run `rmarkdown::render("README.Rmd")` in `R` to generate `README.md`.
 
 ### Stickers for software packages
 
