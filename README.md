@@ -118,7 +118,10 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
 > [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd),
-> and run `rmarkdown::render("README.Rmd")` in `R` to generate `README.md`.
+> and run `rmarkdown::render("README.Rmd")` in `R` to generate
+> `README.md`.
+
+**Please put stickers in alphabet order.**
 
 ### Stickers for software packages
 
@@ -167,6 +170,7 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://github.com/thiyangt/seer/blob/master/logo/seer.png" height="120"/>](https://github.com/thiyangt/seer/blob/master/logo/seer.png)
 [<img src="https://user-images.githubusercontent.com/9893806/34084712-02f8698a-e33a-11e7-86e7-ce60bf51fe86.png" height="120"/>](https://github.com/Bohdan-Khomtchouk/shinyheatmap)
 [<img src="https://raw.githubusercontent.com/cwthom/shinyhelper/master/data-raw/shinyhelper.png" height="120"/>](https://github.com/cwthom/shinyhelper)
+[<img src="https://github.com/ShixiangWang/sigminer/blob/master/inst/figures/sigminer.png" height="120"/>](https://github.com/ShixiangWang/sigminer)
 [<img src="https://raw.githubusercontent.com/strengejacke/sjmisc/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjmisc)
 [<img src="https://raw.githubusercontent.com/strengejacke/sjPlot/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjPlot)
 [<img src="https://raw.githubusercontent.com/strengejacke/sjstats/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/sjstats)

@@ -136,6 +136,9 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 > please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd),
 > and run `rmarkdown::render("README.Rmd")` in `R` to generate `README.md`.
 
+**Please put stickers in alphabet order.**
+
+
 ### Stickers for software packages
 
 <!--
