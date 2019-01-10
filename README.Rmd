@@ -214,12 +214,12 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
 [<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
 
-## Related Tools
-
-Badge to display information of software packages can be generated purely in `R` via [badger](https://github.com/GuangchuangYu/badger).
 
 ## Print/order stickers
 
 Sticker designers can make their stickers available via [Sticker Mule](https://www.stickermule.com/uses/hexagon-stickers).
 
+## Related Tools
+
+Badge to display information of software packages can be generated purely in `R` via [badger](https://github.com/GuangchuangYu/badger).
 
