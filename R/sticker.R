@@ -29,6 +29,7 @@
 ##' @param u_family font family for url
 ##' @param u_size text size for url
 ##' @param filename filename to save sticker
+##' @param asp aspect ratio, only works if subplot is an image file
 ##' @param dpi plot resolution
 ##' @return gg object
 ##' @importFrom ggplot2 ggplot
@@ -47,12 +48,12 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3, l_alpha=0.4,
                     url = "",  u_x=1, u_y=0.08, u_color="black", u_family="Aller_Rg", u_size=1.5,
-                    filename = paste0(package, ".png"), dpi = 300) {
+                    filename = paste0(package, ".png"), asp=1, dpi = 300) {
 
     hex <- hexagon(size=h_size, fill=h_fill, color=h_color)
     if (inherits(subplot, "character")) {
         d <- data.frame(x=s_x, y=s_y, image=subplot)
-        sticker <- hex + geom_image(aes_(x=~x, y=~y, image=~image), d, size=s_width)
+        sticker <- hex + geom_image(aes_(x=~x, y=~y, image=~image), d, size=s_width, asp=asp)
     } else {
         sticker <- hex + geom_subview(subview=subplot, x=s_x, y=s_y, width=s_width, height=s_height)
     }
