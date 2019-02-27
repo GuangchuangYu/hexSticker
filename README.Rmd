@@ -154,8 +154,8 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/clusterProfiler/clusterProfiler.png" height="120"/>](https://guangchuangyu.github.io/clusterProfiler)
 [<img src="https://github.com/RhoInc/CRANsearcher/raw/master/inst/image/hex/CRANsearcher_hexSticker.png" height="120"/>](https://github.com/RhoInc/CRANsearcher)
 [<img src="https://github.com/lpantano/DEGreport/raw/master/inst/sticker/degreport.png" height="120"/>](https://github.com/lpantano/DEGreport)
-[<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 [<img src="https://raw.githubusercontent.com/CWWhitney/ethnobotanyR/master/vignettes/ethnobotanyR.png" height="120"/>](https://github.com/CWWhitney/ethnobotanyR)
+[<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 [<img src="https://raw.githubusercontent.com/seabbs/getTBinR/master/man/figure/logo.png" height="120"/>](https://www.samabbott.co.uk/getTBinR/)
 [<img src="https://raw.githubusercontent.com/strengejacke/ggeffects/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/ggeffects)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ggtree/ggtree.png" height="120"/>](https://guangchuangyu.github.io/ggtree)
@@ -215,9 +215,10 @@ sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
 ### Stickers for organizations
 
 [<img src="https://shanmdphd.github.io/hex/cryptokor.png" height="120"/>](https://github.com/cryptokor)
+[<img src="https://raw.githubusercontent.com/MEDSL/ggmedsl/master/ggmedsl.png" height="120"/>](https://github.com/MEDSL/ggmedsl)
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
 [<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
-[<img src="https://raw.githubusercontent.com/MEDSL/ggmedsl/master/ggmedsl.png" height="120"/>](https://github.com/MEDSL/ggmedsl)
+
 
 ## Print/order stickers
 
