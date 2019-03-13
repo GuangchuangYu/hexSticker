@@ -141,6 +141,8 @@ load_font <- function(family) {
     if (any(i)) {
         font_add(family, fonts[which(i)[1]])
         showtext_auto()
+    } else {
+        sysfonts::font_add_google(name = family, family = family)
     }
     return(family)
 }
