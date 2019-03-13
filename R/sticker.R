@@ -48,9 +48,12 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3, l_alpha=0.4,
                     url = "",  u_x=1, u_y=0.08, u_color="black", u_family="Aller_Rg", u_size=1.5,
+                    white_around_sticker = FALSE, ...,
                     filename = paste0(package, ".png"), asp=1, dpi = 300) {
 
-    hex <- hexagon(size=h_size, fill=h_fill, color=h_color)
+    hex <- ggplot() +
+      geom_hexagon(size = h_size, fill = h_fill, color = NA)
+
     if (inherits(subplot, "character")) {
         d <- data.frame(x=s_x, y=s_y, image=subplot)
         sticker <- hex + geom_image(aes_(x=~x, y=~y, image=~image), d, size=s_width, asp=asp)
@@ -58,30 +61,39 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
         sticker <- hex + geom_subview(subview=subplot, x=s_x, y=s_y, width=s_width, height=s_height)
     }
 
+    sticker <- sticker +
+      geom_hexagon(size = h_size, fill = NA, color = h_color)
+
     if(spotlight)
         sticker <- sticker + geom_subview(subview=spotlight(l_alpha), x=l_x, y=l_y, width=l_width, height=l_height)
 
-    sticker <- sticker + geom_pkgname(package, p_x, p_y, p_color, p_family, p_size)
+    sticker <- sticker + geom_pkgname(package, p_x, p_y, p_color, p_family, p_size, ...)
 
     sticker <- sticker + geom_url(url, x=u_x, y = u_y, color = u_color, family = u_family, size=u_size)
+
+    if (white_around_sticker)
+      sticker <- sticker + white_around_hex(size = h_size)
+
+    sticker <- sticker + theme_sticker(size = h_size)
 
     save_sticker(filename, sticker, dpi = dpi)
     invisible(sticker)
 }
 
-##' empty hexagon
-##'
-##'
-##' @title hexagon
-##' @param size size of border
-##' @param fill color of hexagon
-##' @param color border color of hexagon
-##' @return hexagon
-##' @export
-##' @author guangchuang yu
-hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
-    ggplot() + geom_hexagon(size=size, fill=fill, color=color) + theme_sticker(size)
-}
+# ##' empty hexagon
+# ##'
+# ##'
+# ##' @title hexagon
+# ##' @param size size of border
+# ##' @param fill color of hexagon
+# ##' @param color border color of hexagon
+# ##' @return hexagon
+# ##' @export
+# ##' @author guangchuang yu
+# hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
+#     ggplot() + geom_hexagon(size=size, fill=fill, color=color) + theme_sticker(size)
+# }
+
 
 ##' @importFrom grDevices rgb
 ##' @author Johannes Rainer with modification from Guangchuang Yu and Sebastian Gibb
@@ -206,6 +218,40 @@ geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
                  size = size, fill = fill, color = color)
 }
 
+
+white_around_hex <- function(size = 1.2) {
+  # copied from theme_sticker
+  center <- 1
+  radius <- 1
+  h <- radius
+  w <- sqrt(3)/2 * radius
+  m <- 1.02
+  x_lims <- c(center-w*m , center+w*m)
+  y_lims <- c(center-h*m , center+h*m)
+  # starting at left, upper and going around counter-clockwise
+  x_vertices <- 1+c(rep(-sqrt(3)/2, 2), 0, rep(sqrt(3)/2, 2), 0)
+  y_vertices <- 1+c(0.5, -0.5, -1, -0.5, 0.5, 1)
+
+  list(
+  ggplot2::geom_polygon(mapping = aes(x = x, y = y),
+                        data = data.frame(x = c(x_lims[1], x_lims[1], x_vertices[6]),
+                                          y = c(y_vertices[1], y_lims[2], y_lims[2])),
+                        fill = 'white'),
+  ggplot2::geom_polygon(mapping = aes(x = x, y = y),
+                        data = data.frame(x = c(x_vertices[6], x_lims[2], x_lims[2]),
+                                          y = c(y_lims[2], y_lims[2], y_vertices[5])),
+                        fill = 'white'),
+  ggplot2::geom_polygon(mapping = aes(x = x, y = y),
+                        data = data.frame(x = c(x_vertices[3], x_lims[2], x_lims[2]),
+                                          y = c(y_lims[1], y_vertices[4], y_lims[1])),
+                        fill = 'white'),
+  ggplot2::geom_polygon(mapping = aes(x = x, y = y),
+                        data = data.frame(x = c(x_lims[1], x_lims[1], x_vertices[3]),
+                                          y = c(y_lims[1], y_vertices[2], y_lims[1])),
+                        fill = 'white')
+  )
+}
+
 ##' sticker theme
 ##'
 ##'
@@ -228,16 +274,17 @@ theme_sticker <- function(size=1.2, ...) {
     h <- radius
     w <- sqrt(3)/2 * radius
     m <- 1.02
-    list(theme_transparent() +
-         theme(plot.margin = margin(b = -.2, l= -.2, unit = "lines"),
-               strip.text = element_blank(),
-               line = element_blank(),
-               text = element_blank(),
-               title = element_blank(), ...),
-         coord_fixed(),
-         scale_y_continuous(expand = c(0, size/sqrt(3)/44), limits = c(center-h*m , center+h*m )),
-         scale_x_continuous(expand = c(0, 0), limits = c(center-w*m , center+w*m ))
-         )
+    list(
+      theme_transparent() +
+        theme(plot.margin = margin(b = -.2, l= -.2, unit = "lines"),
+              strip.text = element_blank(),
+              line = element_blank(),
+              text = element_blank(),
+              title = element_blank(), ...),
+      coord_fixed(),
+      scale_y_continuous(expand = c(0, 0), limits = c(center-h*m , center+h*m )),
+      scale_x_continuous(expand = c(0, 0), limits = c(center-w*m , center+w*m ))
+    )
 }
 
 
