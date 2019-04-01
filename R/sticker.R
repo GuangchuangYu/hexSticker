@@ -143,6 +143,12 @@ geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg"
 ##' @importFrom sysfonts font_add
 ##' @importFrom showtext showtext_auto
 load_font <- function(family) {
+    ## load the font packed in the hexSticker package,
+    ## otherwise, load system fonts
+    ##
+    ## google font can be supported via `showtext`,
+    ## see https://github.com/GuangchuangYu/hexSticker#google-fonts
+    ## 
     if (family == "Aller") {
         family <- "Aller_Rg"
     }
@@ -153,9 +159,7 @@ load_font <- function(family) {
     if (any(i)) {
         font_add(family, fonts[which(i)[1]])
         showtext_auto()
-    } # else {
-      #    sysfonts::font_add_google(name = family, family = family)
-      # }
+    } 
     return(family)
 }
 
