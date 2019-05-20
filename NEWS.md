@@ -1,7 +1,11 @@
 CHANGES IN VERSION 0.4.6
 ------------------------
- + asp parameter in sticker <2019-01-14, Mon>
-   - <https://github.com/GuangchuangYu/hexSticker/issues/17>
++ u_angle parameter to allow changing angle of url (2019-5-20, Mon)
+  - <https://github.com/GuangchuangYu/hexSticker/issues/62>
++ white_around_sticker parameter to put white triangles in the corners (2019-03-14)
+  - <https://github.com/GuangchuangYu/hexSticker/pull/56>
++ asp parameter in sticker <2019-01-14, Mon>
+  - <https://github.com/GuangchuangYu/hexSticker/issues/17>
 
 hexSticker 0.4.5
 ------------------------
