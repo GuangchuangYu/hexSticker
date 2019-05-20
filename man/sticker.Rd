@@ -10,8 +10,9 @@ sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4,
   h_fill = "#1881C2", h_color = "#87B13F", spotlight = FALSE,
   l_x = 1, l_y = 0.5, l_width = 3, l_height = 3, l_alpha = 0.4,
   url = "", u_x = 1, u_y = 0.08, u_color = "black",
-  u_family = "Aller_Rg", u_size = 1.5, white_around_sticker = FALSE,
-  ..., filename = paste0(package, ".png"), asp = 1, dpi = 300)
+  u_family = "Aller_Rg", u_size = 1.5, u_angle = 30,
+  white_around_sticker = FALSE, ..., filename = paste0(package,
+  ".png"), asp = 1, dpi = 300)
 }
 \arguments{
 \item{subplot}{subplot}
@@ -66,6 +67,13 @@ sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4,
 
 \item{u_size}{text size for url}
 
+\item{u_angle}{angle for url}
+
+\item{white_around_sticker}{default to FALSE. If set to TRUE, it puts
+white triangles in the corners}
+
+\item{...}{additional parameter to geom_pkgname}
+
 \item{filename}{filename to save sticker}
 
 \item{asp}{aspect ratio, only works if subplot is an image file}
@@ -85,5 +93,5 @@ p <- p + theme_void() + theme_transparent()
 sticker(p, package="hexSticker")
 }
 \author{
-guangchuang yu
+Guangchuang Yu
 }
