@@ -206,6 +206,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 [<img src="https://github.com/neuroconductor/WhiteStripe/raw/master/sticker.png" height="120"/>](https://github.com/neuroconductor/WhiteStripe)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 [<img src="https://raw.githubusercontent.com/drisso/zinb_analysis/master/sticker/zinbwave.png" height="120"/>](https://github.com/drisso/zinb_analysis/tree/master/sticker)
+[<img src="https://raw.githubusercontent.com/VLucet/ropencan/master/inst/ropencan_hex.png" height="120"/>](https://github.com/VLucet/ropencan/blob/master/inst/)
 
 ### Stickers for events/workshops
 
