@@ -205,6 +205,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 [<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
 [<img src="https://github.com/thiyangt/seer/blob/master/logo/seer.png" height="120"/>](https://github.com/thiyangt/seer/blob/master/logo/seer.png)
 [<img src="https://raw.githubusercontent.com/danielmarcelino/SenadoBR/master/inst/figures/SenadoBR-logo.png" height="120"/>](https://github.com/danielmarcelino/SenadoBR)
+[<img src="https://github.com/sborms/sentometrics/blob/master/man/figures/logo.png" height="120"/>](https://github.com/sborms/sentometrics)
 [<img src="https://user-images.githubusercontent.com/9893806/34084712-02f8698a-e33a-11e7-86e7-ce60bf51fe86.png" height="120"/>](https://github.com/Bohdan-Khomtchouk/shinyheatmap)
 [<img src="https://raw.githubusercontent.com/cwthom/shinyhelper/master/data-raw/shinyhelper.png" height="120"/>](https://github.com/cwthom/shinyhelper)
 [<img src="https://github.com/ShixiangWang/sigminer/blob/master/inst/figures/sigminer.png" height="120"/>](https://github.com/ShixiangWang/sigminer)
