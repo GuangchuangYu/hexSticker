@@ -48,7 +48,7 @@ installed it, please try the following
 
 In Mac OS, you may need to re-install `sysfornt` to properly load it.
 
-Be sure to install `xqartz` first.
+Be sure to install `xquartz` first.
 
 ``` r
 brew update && brew install homebrew/cask/xquartz
