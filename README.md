@@ -7,14 +7,11 @@
 [![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 
-    ## Warning: package 'hexSticker' was built under R version 3.5.3
-
 ## Author
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
-School of Basic Medical Sciences, Southern Medical
-University
+School of Basic Medical Sciences, Southern Medical University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-WeChat-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
@@ -48,7 +45,7 @@ installed it, please try the following
 
 In Mac OS, you may need to re-install `sysfornt` to properly load it.
 
-Be sure to install `xqartz` first.
+Be sure to install `xquartz` first.
 
 ``` r
 brew update && brew install homebrew/cask/xquartz
