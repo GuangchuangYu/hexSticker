@@ -43,7 +43,7 @@ installed it, please try the following
 
 ### Fail to load ‘sysfonts’
 
-In Mac OS, you may need to re-install `sysfornt` to properly load it.
+In Mac OS, you may need to re-install `sysfont` to properly load it.
 
 Be sure to install `xquartz` first.
 
