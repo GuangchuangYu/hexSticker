@@ -11,8 +11,7 @@
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
-School of Basic Medical Sciences, Southern Medical
-University
+School of Basic Medical Sciences, Southern Medical University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-WeChat-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
@@ -154,6 +153,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/clusterProfiler/clusterProfiler.png" height="120"/>](https://github.com/GuangchuangYu/clusterProfiler)
 [<img src="https://github.com/RhoInc/CRANsearcher/raw/master/inst/image/hex/CRANsearcher_hexSticker.png" height="120"/>](https://github.com/RhoInc/CRANsearcher)
 [<img src="https://github.com/lpantano/DEGreport/raw/master/inst/sticker/degreport.png" height="120"/>](https://github.com/lpantano/DEGreport)
+[<img src="https://github.com/tbradley1013/dragondown/blob/master/man/figures/dragondown.png" height="120"/>](https://github.com/tbradley1013/dragondown)
 [<img src="https://raw.githubusercontent.com/CWWhitney/ethnobotanyR/master/vignettes/ethnobotanyR.png" height="120"/>](https://github.com/CWWhitney/ethnobotanyR)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 [<img src="https://www.samabbott.co.uk/getTBinR/reference/figures/logo.png" height="120"/>](https://www.samabbott.co.uk/getTBinR/)
@@ -206,7 +206,6 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 [<img src="https://github.com/neuroconductor/WhiteStripe/raw/master/sticker.png" height="120"/>](https://github.com/neuroconductor/WhiteStripe)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 [<img src="https://raw.githubusercontent.com/drisso/zinb_analysis/master/sticker/zinbwave.png" height="120"/>](https://github.com/drisso/zinb_analysis/tree/master/sticker)
-[<img src="https://github.com/tbradley1013/dragondown/blob/master/man/figures/dragondown.png" height="120"/>](https://github.com/tbradley1013/dragondown)
 
 ### Stickers for events/workshops
 
