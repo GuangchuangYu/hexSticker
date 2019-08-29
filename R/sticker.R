@@ -12,6 +12,7 @@
 ##' @param p_y y position for package name
 ##' @param p_color color for package name
 ##' @param p_family font family for package name
+##' @param p_face font face for package name##'
 ##' @param p_size font size for package name
 ##' @param h_size size for hexagon border
 ##' @param h_fill color to fill hexagon
@@ -46,9 +47,11 @@
 ##' p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
 ##' p <- p + theme_void() + theme_transparent()
 ##' sticker(p, package="hexSticker")
-##' @author Guangchuang Yu 
+##' @author Guangchuang Yu
 sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
-                    package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=8,
+                    package, p_x=1, p_y=1.4, p_color="#FFFFFF",
+                    p_family="Aller_Rg", p_face="regular",
+                    p_size=8,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3, l_alpha=0.4,
                     url = "",  u_x=1, u_y=0.08, u_color="black", u_family="Aller_Rg", u_size=1.5, u_angle=30,
@@ -152,7 +155,7 @@ load_font <- function(family) {
     ##
     ## google font can be supported via `showtext`,
     ## see https://github.com/GuangchuangYu/hexSticker#google-fonts
-    ## 
+    ##
     if (family == "Aller") {
         family <- "Aller_Rg"
     }
@@ -163,7 +166,7 @@ load_font <- function(family) {
     if (any(i)) {
         font_add(family, fonts[which(i)[1]])
         showtext_auto()
-    } 
+    }
     return(family)
 }
 
