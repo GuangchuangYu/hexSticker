@@ -249,4 +249,6 @@ Sticker designers can make their stickers available via [Sticker Mule](https://w
 ## Related Tools
 
 + [badger](https://github.com/GuangchuangYu/badger): Query information and generate badge for using in README and GitHub Pages.
-
++ [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image files and graphic objects to be visualized in 'ggplot2' graphic system.
++ [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
++ [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create text grob with background shadow.
