@@ -186,6 +186,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRolocGUI.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
 [<img src="https://github.com/Yue-Jiang/pzfx/blob/master/man/figures/logo.png" height="120"/>](https://github.com/Yue-Jiang/pzfx)
 [<img src="https://raw.githubusercontent.com/justinmillar/r-gators-hex/master/r-gators.png" height="120"/>](https://github.com/justinmillar/r-gators-hex)
+[<img src="https://github.com/potterzot/rnassqs/blob/master/inst/figures/rnassqs.png" height="120"/>](https://github.com/potterzot/rnassqs)
 [<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
 [<img src="https://github.com/thiyangt/seer/blob/master/logo/seer.png" height="120"/>](https://github.com/thiyangt/seer/blob/master/logo/seer.png)
 [<img src="https://raw.githubusercontent.com/danielmarcelino/SenadoBR/master/inst/figures/SenadoBR-logo.png" height="120"/>](https://github.com/danielmarcelino/SenadoBR)
@@ -234,3 +235,9 @@ Mule](https://www.stickermule.com/uses/hexagon-stickers).
 
   - [badger](https://github.com/GuangchuangYu/badger): Query information
     and generate badge for using in README and GitHub Pages.
+  - [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image
+    files and graphic objects to be visualized in ‘ggplot2’ graphic
+    system.
+  - [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
+  - [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create
+    text grob with background shadow.
