@@ -11,7 +11,8 @@
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
-School of Basic Medical Sciences, Southern Medical University
+School of Basic Medical Sciences, Southern Medical
+University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-WeChat-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
@@ -170,6 +171,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 [<img src="https://raw.githubusercontent.com/juliasilge/janeaustenr/master/tools/janeaustenr.png" height="120"/>](https://github.com/juliasilge/janeaustenr/tree/master/tools)
 [<img src="https://github.com/ryansar/lungct/blob/master/inst/extdata/logo.png" height="120"/>](https://github.com/ryansar/lungct)
 [<img src="https://raw.githubusercontent.com/gpaux/Mediana/master/inst/figures/hexMediana.png" height="120"/>](https://github.com/gpaux/Mediana)
+[<img src="https://github.com/keblu/MSGARCH/blob/master/hexmsgarch_small.png" height="120"/>](https://github.com/keblu/MSGARCH)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/MSnbase/MSnbase.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/MSnbase)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/mzR/mzR_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/mzR)
 [<img src="https://raw.githubusercontent.com/lbenz730/ncaahoopR/master/figures/logo.png" height="120"/>](https://github.com/lbenz730/ncaahoopR)
