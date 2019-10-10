@@ -182,6 +182,7 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 [<img src="https://raw.githubusercontent.com/ox-it/oidnChaRts/master/data-raw/oidnChaRt-sticker.png" height="120"/>](https://github.com/ox-it/oidnChaRts/tree/master/data-raw)
 [<img src="https://raw.githubusercontent.com/RGLab/openCyto/trunk/inst/figures/openCyto.png" height="120"/>](http://github.com/RGLab/openCyto)
 [<img src="https://raw.githubusercontent.com/cbg-ethz/perturbatr/122cdd1516aa13d967677050dbf4fe08cfe66c7c/inst/figure/sticker.png" height="120"/>](https://github.com/cbg-ethz/perturbatr)
+[<img src="https://raw.githubusercontent.com/uptake/pkgnet/master/man/figures/logo.png" height="120"/>](https://uptake.github.io/pkgnet/)
 [<img src="https://raw.githubusercontent.com/dmi3kno/polite/master/data-raw/sticker.png" height="120"/>](https://github.com/dmi3kno/polite)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRoloc.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRolocdata.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
