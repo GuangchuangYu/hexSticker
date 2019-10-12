@@ -62,8 +62,8 @@ brew update && brew install homebrew/cask/xquartz
 
 ``` r
 library(hexSticker)
-sticker(expression(plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab="")),
-        package="hexSticker", p_size=8, s_x=1, s_y=.8, s_width=1.2, s_height=1,
+sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
+        package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
         filename="inst/figures/baseplot.png")
 ```
 
@@ -79,7 +79,7 @@ outcome <- gl(3,1,9)
 treatment <- gl(3,3)
 bwplot <- bwplot(counts ~ outcome | treatment, xlab=NULL, ylab=NULL, cex=.5,
                  scales=list(cex=.5), par.strip.text=list(cex=.5))
-sticker(bwplot, package="hexSticker", p_size=8, s_x=1.05, s_y=.75, s_width=2, s_height=1.5,
+sticker(bwplot, package="hexSticker", p_size=20, s_x=1.05, s_y=.8, s_width=2, s_height=1.5,
         h_fill="#f9690e", h_color="#f39c12", filename="inst/figures/lattice.png")
 ```
 
@@ -93,7 +93,7 @@ library(ggplot2)
 p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
 p <- p + theme_void() + theme_transparent()
 
-sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height=1,
+sticker(p, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=1.3, s_height=1,
         filename="inst/figures/ggplot2.png")
 ```
 
@@ -102,8 +102,8 @@ sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height
 ### image file
 
 ``` r
-imgurl <- "http://www.belleamibengals.com/bengal_cat_2.png"
-sticker(imgurl, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=.6,
+imgurl <- system.file("figures/cat.png", package="hexSticker")
+sticker(imgurl, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=.6,
         filename="inst/figures/imgfile.png")
 ```
 
@@ -119,7 +119,7 @@ font_add_google("Gochi Hand", "gochi")
 showtext_auto()
 
 ## use the ggplot2 example
-sticker(p, package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height=1,
+sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_height=1,
         p_family = "gochi", filename="inst/figures/ggplot2-google-font.png")
 ```
 
