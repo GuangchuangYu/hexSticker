@@ -93,7 +93,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
 # ##' @param color border color of hexagon
 # ##' @return hexagon
 # ##' @export
-# ##' @author guangchuang yu
+# ##' @author Guangchuang Yu
 # hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
 #     ggplot() + geom_hexagon(size=size, fill=fill, color=color) + theme_sticker(size)
 # }
@@ -135,7 +135,7 @@ spotlight <- function(alpha) {
 ##' @return package name layer
 ##' @importFrom ggplot2 geom_text
 ##' @export
-##' @author guangchuang yu
+##' @author Guangchuang Yu
 geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg", size=8, ...) {
     family <- load_font(family)
     d <- data.frame(x = x, y = y,
@@ -182,7 +182,7 @@ load_font <- function(family) {
 ##' @param ... additional parameters to geom_text
 ##' @return geom layer
 ##' @export
-##' @author guangchuang yu
+##' @author Guangchuang Yu
 geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg",
                      size=1.5, color="black", angle=30, hjust=0, ...) {
     family <- load_font(family)
@@ -211,7 +211,7 @@ geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg",
 ##' @importFrom ggplot2 geom_polygon
 ## @importFrom ggforce geom_circle
 ##' @export
-##' @author guangchuang yu
+##' @author Guangchuang Yu
 geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
     ## center <- 1
     ## radius <- 1
@@ -275,7 +275,7 @@ white_around_hex <- function(size = 1.2) {
 ##' @importFrom ggplot2 margin
 ##' @importFrom ggimage theme_transparent
 ##' @export
-##' @author guangchuang yu
+##' @author Guangchuang Yu
 theme_sticker <- function(size=1.2, ...) {
     center <- 1
     radius <- 1
@@ -307,7 +307,7 @@ theme_sticker <- function(size=1.2, ...) {
 ##' @importFrom ggplot2 ggsave
 ##' @importFrom ggplot2 last_plot
 ##' @export
-##' @author guangchuang yu
+##' @author Guangchuang Yu
 save_sticker <- function(filename, sticker=last_plot(), ...) {
     ggsave(sticker, width = 43.9, height = 50.8,
            filename = filename,
@@ -322,7 +322,7 @@ save_sticker <- function(filename, sticker=last_plot(), ...) {
 ##' @return new dev
 ##' @importFrom grDevices dev.new
 ##' @export
-##' @author guangchuang yu
+##' @author Guangchuang Yu
 sticker_dev <- function() {
     # if (!(all.equal(dev.size()[1], sqrt(3)) && all.equal(dev.size()[2], 2)))
     dev.new(width=sqrt(3), height=2, noRStudioGD=TRUE)
