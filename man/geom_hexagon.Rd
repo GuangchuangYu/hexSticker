@@ -20,5 +20,5 @@ hexagon layer
 geom layer of hexagon
 }
 \author{
-guangchuang yu
+Guangchuang Yu
 }

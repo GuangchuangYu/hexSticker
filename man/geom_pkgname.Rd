@@ -29,5 +29,5 @@ package name layer
 add package name to sticker
 }
 \author{
-guangchuang yu
+Guangchuang Yu
 }

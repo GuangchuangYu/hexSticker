@@ -7,7 +7,7 @@
 [![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 
-## Author
+## :writing\_hand: Author
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
@@ -18,7 +18,7 @@ School of Basic Medical Sciences, Southern Medical University
 
 -----
 
-## Installation
+## :arrow\_double\_down: Installation
 
 Install the hexSticker package via CRAN:
 
@@ -137,7 +137,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 **Please put stickers in alphabet order.**
 
-### Stickers for software packages
+### :sparkling\_heart: Stickers for software packages
 
 <!--
 [<img src="" height="120"/>]()

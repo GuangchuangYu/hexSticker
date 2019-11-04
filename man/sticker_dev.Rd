@@ -13,5 +13,5 @@ new dev
 open dev for sticker
 }
 \author{
-guangchuang yu
+Guangchuang Yu
 }

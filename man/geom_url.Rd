@@ -34,5 +34,5 @@ geom layer
 add url at the lower border of the sticker
 }
 \author{
-guangchuang yu
+Guangchuang Yu
 }

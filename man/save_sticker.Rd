@@ -17,5 +17,5 @@ save_sticker(filename, sticker = last_plot(), ...)
 save sticker to file
 }
 \author{
-guangchuang yu
+Guangchuang Yu
 }

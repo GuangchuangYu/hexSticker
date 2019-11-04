@@ -18,5 +18,5 @@ theme for sticker
 sticker theme
 }
 \author{
-guangchuang yu
+Guangchuang Yu
 }
