@@ -127,7 +127,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 -----
 
-## Stickers produced by `hexSticker`
+## :sparkling\_heart: Stickers produced by `hexSticker`
 
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
@@ -137,7 +137,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 **Please put stickers in alphabet order.**
 
-### :sparkling\_heart: Stickers for software packages
+### Stickers for software packages
 
 <!--
 [<img src="" height="120"/>]()
