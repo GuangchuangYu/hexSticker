@@ -11,7 +11,8 @@
 
 Guangchuang YU <https://guangchuangyu.github.io>
 
-School of Basic Medical Sciences, Southern Medical University
+School of Basic Medical Sciences, Southern Medical
+University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-WeChat-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
@@ -162,6 +163,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ggtree/ggtree.png" height="120"/>](https://github.com/GuangchuangYu/ggtree)
 [<img src="https://raw.githubusercontent.com/MEDSL/resources/master/images/ggmedsl.png" height="120"/>](https://github.com/MEDSL/ggmedsl)
 [<img src="https://github.com/muschellij2/glassdoor/raw/master/sticker.png" height="120"/>](https://github.com/muschellij2/glassdoor)
+[<img src="https://raw.githubusercontent.com/mikemahoney218/heddlr/master/man/figures/heddlr-badge.png" height="120"/>](https://github.com/mikemahoney218/heddlr)
 [<img src="https://github.com/greta-dev/greta/raw/master/logos/greta_hex.png" height="120"/>](https://github.com/greta-dev/greta/tree/master/logos)
 [<img src="https://raw.githubusercontent.com/SteffenMoritz/imputeR/master/man/figures/imputeR-logo.png" height="120"/>](https://github.com/SteffenMoritz/imputeR)
 [<img src="https://github.com/lpantano/isomiRs/raw/master/inst/stickers/isomirs.png" height="120"/>](https://github.com/lpantano/isomiRs)
