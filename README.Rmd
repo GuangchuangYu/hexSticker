@@ -115,6 +115,21 @@ sticker(p, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 <img src="inst/figures/ggplot2.png" height="300"/>
 
+### fpp3
+
+```{r fig.keep="none", eval=F}
+library(fpp3)
+
+recent_production <- aus_production %>% filter(year(Quarter) >= 2000)
+p <- recent_production %>% gg_lag(Beer, geom="point", lags = 1:3)
+p <- p + theme_void() + theme_transparent()
+
+sticker(p, package = "fpp3", p_size=8 , p_color = 'white', h_fill = 'blue2', h_color = 'red', p_x = 1, p_y = 1.6, 
+        s_x=1.1, s_y=.8, s_width=1.3, s_height=1, filename = "inst/figures/fpp3.png")
+```
+
+<img src="inst/figures/fpp3.png" height="300"/>
+
 
 ### image file
 
