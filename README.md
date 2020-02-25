@@ -151,6 +151,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ChIPseeker/ChIPseeker.png" height="120"/>](https://github.com/GuangchuangYu/ChIPseeker)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/cleaver/cleaver.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/cleaver)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/clusterProfiler/clusterProfiler.png" height="120"/>](https://github.com/GuangchuangYu/clusterProfiler)
+[<img src="https://raw.githubusercontent.com/stevecondylios/collidr/master/man/figures/collidr.png" height="120"/>](https://github.com/stevecondylios/collidr)
 [<img src="https://github.com/RhoInc/CRANsearcher/raw/master/inst/image/hex/CRANsearcher_hexSticker.png" height="120"/>](https://github.com/RhoInc/CRANsearcher)
 [<img src="https://github.com/lpantano/DEGreport/raw/master/inst/sticker/degreport.png" height="120"/>](https://github.com/lpantano/DEGreport)
 [<img src="https://github.com/tbradley1013/dragondown/raw/master/man/figures/dragondown.png" height="120"/>](https://github.com/tbradley1013/dragondown)
