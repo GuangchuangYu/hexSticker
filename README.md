@@ -195,9 +195,9 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/jwood000/RcppAlgos/master/inst/figures/RcppAlgos-logo.png" height="120"/>](https://github.com/jwood000/RcppAlgos)
 [<img src="https://github.com/potterzot/rnassqs/raw/master/inst/figures/rnassqs.png" height="120"/>](https://github.com/potterzot/rnassqs)
 [<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
+[<img src="https://github.com/thiyangt/seer/raw/master/logo/seer.png" height="120"/>](https://github.com/thiyangt/seer/raw/master/logo/seer.png)
 [<img src="https://raw.githubusercontent.com/QiHongchao/SampleSize4ClinicalTrials/master/man/logo/logo.png" height="120"/>]
 (https://github.com/QiHongchao/SampleSize4ClinicalTrials)
-[<img src="https://github.com/thiyangt/seer/raw/master/logo/seer.png" height="120"/>](https://github.com/thiyangt/seer/raw/master/logo/seer.png)
 [<img src="https://raw.githubusercontent.com/danielmarcelino/SenadoBR/master/inst/figures/SenadoBR-logo.png" height="120"/>](https://github.com/danielmarcelino/SenadoBR)
 [<img src="https://github.com/sborms/sentometrics/raw/master/man/figures/logo.png" height="120"/>](https://github.com/sborms/sentometrics)
 [<img src="https://raw.githubusercontent.com/IyarLin/simMixedDAG/master/inst/simMixedDAGhex.png" height="120"/>](https://github.com/IyarLin/simMixedDAG)
