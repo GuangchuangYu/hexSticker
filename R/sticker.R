@@ -81,6 +81,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
     sticker <- sticker + theme_sticker(size = h_size)
 
     save_sticker(filename, sticker, dpi = dpi)
+    class(sticker) <- c("sticker", class(sticker))
     invisible(sticker)
 }
 

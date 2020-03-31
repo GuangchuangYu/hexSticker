@@ -46,8 +46,8 @@ install.packages("hexSticker")
 You can also install the package via the Github repository.
 
 ```{r, eval=FALSE}
-# install.package("devtools")   #In case you have not installed it.
-devtools::install_github("GuangchuangYu/hexSticker")
+# install.package("remotes")   #In case you have not installed it.
+remotes::install_github("GuangchuangYu/hexSticker")
 ```
 
 ## Fail to install
@@ -78,10 +78,12 @@ brew update && brew install homebrew/cask/xquartz
 
 ```{r eval=FALSE}
 library(hexSticker)
-sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
-        package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
-        filename="inst/figures/baseplot.png")
+s <- sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
+          package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
+          filename="inst/figures/baseplot.png")
 ```
+
+The `sticker()` will generate a figure specify by the `filename` parameter. The output of the `sticker()` function is a `ggplot` object, e.g. the `s` variable in the above example. Print the object, `print(s)`,  will display the image. However, the image may slightly different from the created image file since the graphic device size are different. To solve this issue, `hexSticker` package provides `plot` function to preview sticker. Try `plot(s)` :).
 
 <img src="inst/figures/baseplot.png" height="300"/>
 

@@ -4,15 +4,40 @@
 \alias{sticker}
 \title{sticker}
 \usage{
-sticker(subplot, s_x = 0.8, s_y = 0.75, s_width = 0.4,
-  s_height = 0.5, package, p_x = 1, p_y = 1.4, p_color = "#FFFFFF",
-  p_family = "Aller_Rg", p_size = 8, h_size = 1.2,
-  h_fill = "#1881C2", h_color = "#87B13F", spotlight = FALSE,
-  l_x = 1, l_y = 0.5, l_width = 3, l_height = 3, l_alpha = 0.4,
-  url = "", u_x = 1, u_y = 0.08, u_color = "black",
-  u_family = "Aller_Rg", u_size = 1.5, u_angle = 30,
-  white_around_sticker = FALSE, ..., filename = paste0(package,
-  ".png"), asp = 1, dpi = 300)
+sticker(
+  subplot,
+  s_x = 0.8,
+  s_y = 0.75,
+  s_width = 0.4,
+  s_height = 0.5,
+  package,
+  p_x = 1,
+  p_y = 1.4,
+  p_color = "#FFFFFF",
+  p_family = "Aller_Rg",
+  p_size = 8,
+  h_size = 1.2,
+  h_fill = "#1881C2",
+  h_color = "#87B13F",
+  spotlight = FALSE,
+  l_x = 1,
+  l_y = 0.5,
+  l_width = 3,
+  l_height = 3,
+  l_alpha = 0.4,
+  url = "",
+  u_x = 1,
+  u_y = 0.08,
+  u_color = "black",
+  u_family = "Aller_Rg",
+  u_size = 1.5,
+  u_angle = 30,
+  white_around_sticker = FALSE,
+  ...,
+  filename = paste0(package, ".png"),
+  asp = 1,
+  dpi = 300
+)
 }
 \arguments{
 \item{subplot}{subplot}

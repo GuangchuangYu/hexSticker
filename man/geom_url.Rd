@@ -4,9 +4,17 @@
 \alias{geom_url}
 \title{geom_url}
 \usage{
-geom_url(url = "www.bioconductor.org", x = 1, y = 0.08,
-  family = "Aller_Rg", size = 1.5, color = "black", angle = 30,
-  hjust = 0, ...)
+geom_url(
+  url = "www.bioconductor.org",
+  x = 1,
+  y = 0.08,
+  family = "Aller_Rg",
+  size = 1.5,
+  color = "black",
+  angle = 30,
+  hjust = 0,
+  ...
+)
 }
 \arguments{
 \item{url}{url}
