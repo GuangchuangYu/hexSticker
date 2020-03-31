@@ -202,6 +202,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/justinmillar/r-gators-hex/master/r-gators.png" height="120"/>](https://github.com/justinmillar/r-gators-hex)
 [<img src="https://raw.githubusercontent.com/stevecondylios/rawr/master/man/figures/rawr.png" height="120"/>](https://github.com/stevecondylios/rawr)
 [<img src="https://raw.githubusercontent.com/jwood000/RcppAlgos/master/inst/figures/RcppAlgos-logo.png" height="120"/>](https://github.com/jwood000/RcppAlgos)
+[<img src="https://raw.githubusercontent.com/VLucet/ropencan/master/inst/rgovcan_hex.png" height="120"/>](https://github.com/VLucet/rgovcan)
 [<img src="https://github.com/potterzot/rnassqs/raw/master/inst/figures/rnassqs.png" height="120"/>](https://github.com/potterzot/rnassqs)
 [<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
 [<img src="https://raw.githubusercontent.com/QiHongchao/SampleSize4ClinicalTrials/master/man/logo/logo.png" height="120"/>](https://github.com/QiHongchao/SampleSize4ClinicalTrials)
