@@ -46,7 +46,7 @@
 ##' p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
 ##' p <- p + theme_void() + theme_transparent()
 ##' sticker(p, package="hexSticker")
-##' @author Guangchuang Yu 
+##' @author Guangchuang Yu
 sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=8,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
@@ -153,7 +153,7 @@ load_font <- function(family) {
     ##
     ## google font can be supported via `showtext`,
     ## see https://github.com/GuangchuangYu/hexSticker#google-fonts
-    ## 
+    ##
     if (family == "Aller") {
         family <- "Aller_Rg"
     }
@@ -164,7 +164,7 @@ load_font <- function(family) {
     if (any(i)) {
         font_add(family, fonts[which(i)[1]])
         showtext_auto()
-    } 
+    }
     return(family)
 }
 
@@ -307,13 +307,20 @@ theme_sticker <- function(size=1.2, ...) {
 ##' @return NULL
 ##' @importFrom ggplot2 ggsave
 ##' @importFrom ggplot2 last_plot
+##' @importFrom grDevices png
+##' @importFrom grDevices dev.off
 ##' @export
 ##' @author Guangchuang Yu
 save_sticker <- function(filename, sticker=last_plot(), ...) {
-    ggsave(sticker, width = 43.9, height = 50.8,
-           filename = filename,
-           bg = 'transparent',
-           units = "mm", ...)
+    args <- list(filename = filename, width = 43.9, height = 50.8,
+                 units = "mm", bg = "transparent", res = 300)
+    if (.Platform$OS.type == "windows" && capabilities("cairo")) {
+      args$type <- "cairo-png"
+      args$antialias <- "subpixel"
+    }
+    do.call(png, args)
+    print(sticker)
+    dev.off()
 }
 
 ##' open dev for sticker
