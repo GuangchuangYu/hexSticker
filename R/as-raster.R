@@ -13,6 +13,7 @@ as.raster.sticker <- function(x,  ...) {
 }
 
 ##' @method plot sticker
+##' @importFrom graphics plot
 ##' @export
 plot.sticker <- function(x, ...) {
     plot(as.raster.sticker(x), ...)
