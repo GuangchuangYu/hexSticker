@@ -121,7 +121,8 @@ graphics devices please see the documentation of \code{\link[ggplot2:ggsave]{ggp
 library(ggplot2)
 p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
 p <- p + theme_void() + theme_transparent()
-sticker(p, package="hexSticker")
+outfile <- tempfile(fileext=".png")
+sticker(p, package="hexSticker", filename=outfile)
 }
 \author{
 Guangchuang Yu
