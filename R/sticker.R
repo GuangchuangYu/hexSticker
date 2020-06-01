@@ -35,6 +35,11 @@
 ##' @param filename filename to save sticker
 ##' @param asp aspect ratio, only works if subplot is an image file
 ##' @param dpi plot resolution
+##' @details
+##' The extension given in `filename` determines the graphics device that is
+##' used to render the sticker, e.g. `filename = sticker.png` creates a png file
+##' and `filename = sticker.svg` creates a svg file. For a list of supported
+##' graphics devices please see the documentation of [ggplot2::ggsave()].
 ##' @return gg object
 ##' @importFrom ggplot2 ggplot
 ##' @importFrom ggplot2 aes_
@@ -47,6 +52,7 @@
 ##' p <- p + theme_void() + theme_transparent()
 ##' sticker(p, package="hexSticker")
 ##' @author Guangchuang Yu
+##' @md
 sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
                     package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=8,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
