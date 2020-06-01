@@ -1,3 +1,9 @@
+# CHANGES IN VERSION 0.4.7
+
++ use Cairo and enable Antialias when saving sticker on Windows (2020-06-01, Mon)
+  - <https://github.com/GuangchuangYu/hexSticker/pull/98>
+  - <https://github.com/GuangchuangYu/hexSticker/issues/97>
+
 CHANGES IN VERSION 0.4.6
 ------------------------
 + u_angle parameter to allow changing angle of url (2019-5-20, Mon)
