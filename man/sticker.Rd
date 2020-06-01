@@ -113,8 +113,8 @@ create sticker in R
 }
 \details{
 The extension given in \code{filename} determines the graphics device that is
-used to render the sticker, e.g. \code{filename = sticker.png} creates a png file
-and \code{filename = sticker.svg} creates a svg file. For a list of supported
+used to render the sticker, e.g. \code{filename = 'sticker.png'} creates a png file
+and \code{filename = 'sticker.svg'} creates a svg file. For a list of supported
 graphics devices please see the documentation of \code{\link[ggplot2:ggsave]{ggplot2::ggsave()}}.
 }
 \examples{

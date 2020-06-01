@@ -37,8 +37,8 @@
 ##' @param dpi plot resolution
 ##' @details
 ##' The extension given in `filename` determines the graphics device that is
-##' used to render the sticker, e.g. `filename = sticker.png` creates a png file
-##' and `filename = sticker.svg` creates a svg file. For a list of supported
+##' used to render the sticker, e.g. `filename = 'sticker.png'` creates a png file
+##' and `filename = 'sticker.svg'` creates a svg file. For a list of supported
 ##' graphics devices please see the documentation of [ggplot2::ggsave()].
 ##' @return gg object
 ##' @importFrom ggplot2 ggplot
