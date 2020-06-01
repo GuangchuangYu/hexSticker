@@ -307,20 +307,20 @@ theme_sticker <- function(size=1.2, ...) {
 ##' @return NULL
 ##' @importFrom ggplot2 ggsave
 ##' @importFrom ggplot2 last_plot
-##' @importFrom grDevices png
-##' @importFrom grDevices dev.off
+##' @importFrom tools file_ext
 ##' @export
 ##' @author Guangchuang Yu
-save_sticker <- function(filename, sticker=last_plot(), ...) {
-    args <- list(filename = filename, width = 43.9, height = 50.8,
-                 units = "mm", bg = "transparent", res = 300)
-    if (.Platform$OS.type == "windows" && capabilities("cairo")) {
+save_sticker <- function(filename, sticker = last_plot(), ...) {
+    args <- list(filename = filename, plot = sticker, width = 43.9,
+                 height = 50.8, units = "mm", bg = "transparent", ...)
+    is_png <- (!is.null(args$device) && args$device == "png") ||
+              file_ext(filename) == "png"
+    is_win <- .Platform$OS.type == "windows"
+    if (is_png && is_win && capabilities("cairo")) {
       args$type <- "cairo-png"
       args$antialias <- "subpixel"
     }
-    do.call(png, args)
-    print(sticker)
-    dev.off()
+    do.call(ggsave, args)
 }
 
 ##' open dev for sticker
