@@ -1,3 +1,8 @@
+# CHANGES IN VERSION 0.4.8
+
++ support passing `expression()` as package name (via the `package` parameter) (2020-08-20, Thu)
+  - <https://github.com/GuangchuangYu/hexSticker/issues/105>
+
 # CHANGES IN VERSION 0.4.7
 
 + use Cairo and enable Antialias when saving sticker on Windows (2020-06-01, Mon)

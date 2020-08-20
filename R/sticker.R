@@ -146,10 +146,15 @@ spotlight <- function(alpha) {
 ##' @author Guangchuang Yu
 geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg", size=8, ...) {
     family <- load_font(family)
-    d <- data.frame(x = x, y = y,
-                    label = package)
-    geom_text(aes_(x=~x, y=~y, label=~label), d,
-              size=size, color=color, family = family, ...)
+    ## d <- data.frame(x = x, y = y,
+    ##                 label = package)
+    ## geom_text(aes_(x=~x, y=~y, label=~label), d,
+    ##           size=size, color=color, family = family, ...)
+
+
+    ## https://github.com/GuangchuangYu/hexSticker/issues/105
+    ggplot2::annotate("text", x = x, y = y, size = size,
+                      label = package, color = color, family = family, ...)
 }
 
 ##' @importFrom sysfonts font_add
