@@ -171,6 +171,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/strengejacke/ggeffects/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/ggeffects)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ggtree/ggtree.png" height="120"/>](https://github.com/GuangchuangYu/ggtree)
 [<img src="https://raw.githubusercontent.com/MEDSL/resources/master/images/ggmedsl.png" height="120"/>](https://github.com/MEDSL/ggmedsl)
+[<img src="https://raw.githubusercontent.com/dieghernan/giscoR/master/man/figures/logo.png" height="120"/>](https://github.com/dieghernan/giscoR)
 [<img src="https://github.com/muschellij2/glassdoor/raw/master/sticker.png" height="120"/>](https://github.com/muschellij2/glassdoor)
 [<img src="https://github.com/greta-dev/greta/raw/master/logos/greta_hex.png" height="120"/>](https://github.com/greta-dev/greta/tree/master/logos)
 [<img src="https://raw.githubusercontent.com/calvinmfloyd/grobblR/master/man/figures/logo.png" height="120"/>](https://github.com/calvinmfloyd/grobblR)
