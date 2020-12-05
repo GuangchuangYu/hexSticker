@@ -12,6 +12,7 @@
 ##' @param p_y y position for package name
 ##' @param p_color color for package name
 ##' @param p_family font family for package name
+##' @param p_fontface fontface for package name
 ##' @param p_size font size for package name
 ##' @param h_size size for hexagon border
 ##' @param h_fill color to fill hexagon
@@ -55,10 +56,12 @@
 ##' @author Guangchuang Yu
 ##' @md
 sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
-                    package, p_x=1, p_y=1.4, p_color="#FFFFFF", p_family="Aller_Rg", p_size=8,
+                    package, p_x=1, p_y=1.4, p_color="#FFFFFF",
+                    p_family="Aller_Rg", p_fontface = "plain", p_size=8,
                     h_size=1.2, h_fill="#1881C2", h_color="#87B13F",
                     spotlight=FALSE, l_x=1, l_y=.5, l_width=3, l_height=3, l_alpha=0.4,
-                    url = "",  u_x=1, u_y=0.08, u_color="black", u_family="Aller_Rg", u_size=1.5, u_angle=30,
+                    url = "",  u_x=1, u_y=0.08, u_color="black",
+                    u_family="Aller_Rg", u_size=1.5, u_angle=30,
                     white_around_sticker = FALSE, ...,
                     filename = paste0(package, ".png"), asp=1, dpi = 300) {
 
@@ -67,20 +70,35 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
 
     if (inherits(subplot, "character")) {
         d <- data.frame(x=s_x, y=s_y, image=subplot)
-        sticker <- hex + geom_image(aes_(x=~x, y=~y, image=~image), d, size=s_width, asp=asp)
+        sticker <- hex + geom_image(aes_(x=~x, y=~y, image=~image),
+                                    d, size=s_width, asp=asp
+                                    )
     } else {
-        sticker <- hex + geom_subview(subview=subplot, x=s_x, y=s_y, width=s_width, height=s_height)
+        sticker <- hex + geom_subview(subview=subplot,
+                                      x=s_x, y=s_y,
+                                      width=s_width, height=s_height
+                                      )
     }
 
     sticker <- sticker +
       geom_hexagon(size = h_size, fill = NA, color = h_color)
 
     if(spotlight)
-        sticker <- sticker + geom_subview(subview=spotlight(l_alpha), x=l_x, y=l_y, width=l_width, height=l_height)
+        sticker <- sticker + geom_subview(subview=spotlight(l_alpha),
+                                          x=l_x, y=l_y,
+                                          width=l_width, height=l_height
+                                          )
 
-    sticker <- sticker + geom_pkgname(package, p_x, p_y, p_color, p_family, p_size, ...)
+    sticker <- sticker + geom_pkgname(package, p_x, p_y,
+                                      color = p_color,
+                                      family = p_family,
+                                      fontface = p_fontface,
+                                      size = p_size,
+                                      ...)
 
-    sticker <- sticker + geom_url(url, x=u_x, y = u_y, color = u_color, family = u_family, size=u_size, angle=u_angle)
+    sticker <- sticker + geom_url(url, x=u_x, y = u_y, color = u_color,
+                                  family = u_family, size=u_size, angle=u_angle
+                                  )
 
     if (white_around_sticker)
       sticker <- sticker + white_around_hex(size = h_size)
@@ -138,13 +156,16 @@ spotlight <- function(alpha) {
 ##' @param y y position
 ##' @param color color
 ##' @param family font family
+##' @param fontface fontface, e.g. 'plain', 'bold', 'italic'
 ##' @param size font size
 ##' @param ... addition parameters passed to geom_text()
 ##' @return package name layer
 ##' @importFrom ggplot2 geom_text
 ##' @export
 ##' @author Guangchuang Yu
-geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg", size=8, ...) {
+geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF",
+                         family="Aller_Rg", fontface = "plain",
+                         size=8, ...) {
     family <- load_font(family)
     ## d <- data.frame(x = x, y = y,
     ##                 label = package)
@@ -154,7 +175,9 @@ geom_pkgname <- function(package, x=1, y=1.4, color="#FFFFFF", family="Aller_Rg"
 
     ## https://github.com/GuangchuangYu/hexSticker/issues/105
     ggplot2::annotate("text", x = x, y = y, size = size,
-                      label = package, color = color, family = family, ...)
+                      label = package, color = color,
+                      family = family, fontface = fontface,
+                      ...)
 }
 
 ##' @importFrom sysfonts font_add

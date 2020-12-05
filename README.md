@@ -1,39 +1,40 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# hexSticker: create hexagon sticker in R
+hexSticker: create hexagon sticker in R
+=======================================
 
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 
-## :writing\_hand: Author
+:writing\_hand: Author
+----------------------
 
-Guangchuang YU <https://guangchuangyu.github.io>
+Guangchuang YU
+<a href="https://guangchuangyu.github.io" class="uri">https://guangchuangyu.github.io</a>
 
 School of Basic Medical Sciences, Southern Medical University
 
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-WeChat-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
 
------
+------------------------------------------------------------------------
 
-## :arrow\_double\_down: Installation
+:arrow\_double\_down: Installation
+----------------------------------
 
 Install the hexSticker package via CRAN:
 
-``` r
-install.packages("hexSticker")
-```
+    install.packages("hexSticker")
 
 You can also install the package via the Github repository.
 
-``` r
-# install.package("remotes")   #In case you have not installed it.
-remotes::install_github("GuangchuangYu/hexSticker")
-```
+    # install.package("remotes")   #In case you have not installed it.
+    remotes::install_github("GuangchuangYu/hexSticker")
 
-## Fail to install
+Fail to install
+---------------
 
 ### imageMagick
 
@@ -47,25 +48,23 @@ In Mac OS, you may need to re-install `sysfont` to properly load it.
 
 Be sure to install `xquartz` first.
 
-``` r
-brew update && brew install homebrew/cask/xquartz
-```
+    brew update && brew install homebrew/cask/xquartz
 
------
+------------------------------------------------------------------------
 
-## Examples
+Examples
+--------
 
 > `sticker` function will produce a file with dimension exactly for
-> printing according to <http://hexb.in/sticker.html>
+> printing according to
+> <a href="http://hexb.in/sticker.html" class="uri">http://hexb.in/sticker.html</a>
 
 ### base plot
 
-``` r
-library(hexSticker)
-s <- sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
-          package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
-          filename="inst/figures/baseplot.png")
-```
+    library(hexSticker)
+    s <- sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
+              package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
+              filename="inst/figures/baseplot.png")
 
 The `sticker()` will generate a figure specified by the `filename`
 parameter. The output of the `sticker()` function is a `ggplot` object,
@@ -79,63 +78,56 @@ function to preview sticker. Try `plot(s)` :).
 
 ### lattice
 
-``` r
-library(lattice)
+    library(lattice)
 
-counts <- c(18,17,15,20,10,20,25,13,12)
-outcome <- gl(3,1,9)
-treatment <- gl(3,3)
-bwplot <- bwplot(counts ~ outcome | treatment, xlab=NULL, ylab=NULL, cex=.5,
-                 scales=list(cex=.5), par.strip.text=list(cex=.5))
-sticker(bwplot, package="hexSticker", p_size=20, s_x=1.05, s_y=.8, s_width=2, s_height=1.5,
-        h_fill="#f9690e", h_color="#f39c12", filename="inst/figures/lattice.png")
-```
+    counts <- c(18,17,15,20,10,20,25,13,12)
+    outcome <- gl(3,1,9)
+    treatment <- gl(3,3)
+    bwplot <- bwplot(counts ~ outcome | treatment, xlab=NULL, ylab=NULL, cex=.5,
+                     scales=list(cex=.5), par.strip.text=list(cex=.5))
+    sticker(bwplot, package="hexSticker", p_size=20, s_x=1.05, s_y=.8, s_width=2, s_height=1.5,
+            h_fill="#f9690e", h_color="#f39c12", filename="inst/figures/lattice.png")
 
 <img src="inst/figures/lattice.png" height="300"/>
 
 ### ggplot2
 
-``` r
-library(ggplot2)
+    library(ggplot2)
 
-p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
-p <- p + theme_void() + theme_transparent()
+    p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
+    p <- p + theme_void() + theme_transparent()
 
-sticker(p, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=1.3, s_height=1,
-        filename="inst/figures/ggplot2.png")
-```
+    sticker(p, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=1.3, s_height=1,
+            filename="inst/figures/ggplot2.png")
 
 <img src="inst/figures/ggplot2.png" height="300"/>
 
 ### image file
 
-``` r
-imgurl <- system.file("figures/cat.png", package="hexSticker")
-sticker(imgurl, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=.6,
-        filename="inst/figures/imgfile.png")
-```
+    imgurl <- system.file("figures/cat.png", package="hexSticker")
+    sticker(imgurl, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=.6,
+            filename="inst/figures/imgfile.png")
 
 <img src="inst/figures/imgfile.png" height="300"/>
 
 ### Google fonts
 
-``` r
-library(showtext)
-## Loading Google fonts (http://www.google.com/fonts)
-font_add_google("Gochi Hand", "gochi")
-## Automatically use showtext to render text for future devices
-showtext_auto()
+    library(showtext)
+    ## Loading Google fonts (http://www.google.com/fonts)
+    font_add_google("Gochi Hand", "gochi")
+    ## Automatically use showtext to render text for future devices
+    showtext_auto()
 
-## use the ggplot2 example
-sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_height=1,
-        p_family = "gochi", filename="inst/figures/ggplot2-google-font.png")
-```
+    ## use the ggplot2 example
+    sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_height=1,
+            p_family = "gochi", filename="inst/figures/ggplot2-google-font.png")
 
 <img src="inst/figures/ggplot2-google-font.png" height="300"/>
 
------
+------------------------------------------------------------------------
 
-## :sparkling\_heart: Stickers produced by `hexSticker`
+:sparkling\_heart: Stickers produced by `hexSticker`
+----------------------------------------------------
 
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
@@ -253,18 +245,20 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
 [<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
 
-## Print/order stickers
+Print/order stickers
+--------------------
 
 Sticker designers can make their stickers available via [Sticker
 Mule](https://www.stickermule.com/uses/hexagon-stickers).
 
-## Related Tools
+Related Tools
+-------------
 
-  - [badger](https://github.com/GuangchuangYu/badger): Query information
+-   [badger](https://github.com/GuangchuangYu/badger): Query information
     and generate badge for using in README and GitHub Pages.
-  - [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image
+-   [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image
     files and graphic objects to be visualized in ‘ggplot2’ graphic
     system.
-  - [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
-  - [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create
+-   [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
+-   [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create
     text grob with background shadow.

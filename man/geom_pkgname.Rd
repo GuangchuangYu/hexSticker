@@ -10,6 +10,7 @@ geom_pkgname(
   y = 1.4,
   color = "#FFFFFF",
   family = "Aller_Rg",
+  fontface = "plain",
   size = 8,
   ...
 )
@@ -24,6 +25,8 @@ geom_pkgname(
 \item{color}{color}
 
 \item{family}{font family}
+
+\item{fontface}{fontface, e.g. 'plain', 'bold', 'italic'}
 
 \item{size}{font size}
 

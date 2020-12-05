@@ -15,6 +15,7 @@ sticker(
   p_y = 1.4,
   p_color = "#FFFFFF",
   p_family = "Aller_Rg",
+  p_fontface = "plain",
   p_size = 8,
   h_size = 1.2,
   h_fill = "#1881C2",
@@ -59,6 +60,8 @@ sticker(
 \item{p_color}{color for package name}
 
 \item{p_family}{font family for package name}
+
+\item{p_fontface}{fontface for package name}
 
 \item{p_size}{font size for package name}
 

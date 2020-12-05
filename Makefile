@@ -27,9 +27,9 @@ install:
 check:
 	Rscript -e 'devtools::check()'
 
-# check: build
-# 	cd ..;\
-# 	Rscript -e 'rcmdcheck::rcmdcheck("$(PKGNAME)_$(PKGVERS).tar.gz", args="--as-cran")'
+check3: build
+	cd ..;\
+	Rscript -e 'rcmdcheck::rcmdcheck("$(PKGNAME)_$(PKGVERS).tar.gz", args="--as-cran")'
 
 check2: build
 	cd ..;\
