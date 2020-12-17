@@ -11,8 +11,7 @@ hexSticker: create hexagon sticker in R
 :writing\_hand: Author
 ----------------------
 
-Guangchuang YU
-<a href="https://guangchuangyu.github.io" class="uri">https://guangchuangyu.github.io</a>
+Guangchuang YU <https://guangchuangyu.github.io>
 
 School of Basic Medical Sciences, Southern Medical University
 
@@ -26,12 +25,16 @@ School of Basic Medical Sciences, Southern Medical University
 
 Install the hexSticker package via CRAN:
 
-    install.packages("hexSticker")
+``` r
+install.packages("hexSticker")
+```
 
 You can also install the package via the Github repository.
 
-    # install.package("remotes")   #In case you have not installed it.
-    remotes::install_github("GuangchuangYu/hexSticker")
+``` r
+# install.package("remotes")   #In case you have not installed it.
+remotes::install_github("GuangchuangYu/hexSticker")
+```
 
 Fail to install
 ---------------
@@ -48,7 +51,9 @@ In Mac OS, you may need to re-install `sysfont` to properly load it.
 
 Be sure to install `xquartz` first.
 
-    brew update && brew install homebrew/cask/xquartz
+``` r
+brew update && brew install homebrew/cask/xquartz
+```
 
 ------------------------------------------------------------------------
 
@@ -56,15 +61,16 @@ Examples
 --------
 
 > `sticker` function will produce a file with dimension exactly for
-> printing according to
-> <a href="http://hexb.in/sticker.html" class="uri">http://hexb.in/sticker.html</a>
+> printing according to <http://hexb.in/sticker.html>
 
 ### base plot
 
-    library(hexSticker)
-    s <- sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
-              package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
-              filename="inst/figures/baseplot.png")
+``` r
+library(hexSticker)
+s <- sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
+          package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
+          filename="inst/figures/baseplot.png")
+```
 
 The `sticker()` will generate a figure specified by the `filename`
 parameter. The output of the `sticker()` function is a `ggplot` object,
@@ -78,49 +84,57 @@ function to preview sticker. Try `plot(s)` :).
 
 ### lattice
 
-    library(lattice)
+``` r
+library(lattice)
 
-    counts <- c(18,17,15,20,10,20,25,13,12)
-    outcome <- gl(3,1,9)
-    treatment <- gl(3,3)
-    bwplot <- bwplot(counts ~ outcome | treatment, xlab=NULL, ylab=NULL, cex=.5,
-                     scales=list(cex=.5), par.strip.text=list(cex=.5))
-    sticker(bwplot, package="hexSticker", p_size=20, s_x=1.05, s_y=.8, s_width=2, s_height=1.5,
-            h_fill="#f9690e", h_color="#f39c12", filename="inst/figures/lattice.png")
+counts <- c(18,17,15,20,10,20,25,13,12)
+outcome <- gl(3,1,9)
+treatment <- gl(3,3)
+bwplot <- bwplot(counts ~ outcome | treatment, xlab=NULL, ylab=NULL, cex=.5,
+                 scales=list(cex=.5), par.strip.text=list(cex=.5))
+sticker(bwplot, package="hexSticker", p_size=20, s_x=1.05, s_y=.8, s_width=2, s_height=1.5,
+        h_fill="#f9690e", h_color="#f39c12", filename="inst/figures/lattice.png")
+```
 
 <img src="inst/figures/lattice.png" height="300"/>
 
 ### ggplot2
 
-    library(ggplot2)
+``` r
+library(ggplot2)
 
-    p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
-    p <- p + theme_void() + theme_transparent()
+p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
+p <- p + theme_void() + theme_transparent()
 
-    sticker(p, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=1.3, s_height=1,
-            filename="inst/figures/ggplot2.png")
+sticker(p, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=1.3, s_height=1,
+        filename="inst/figures/ggplot2.png")
+```
 
 <img src="inst/figures/ggplot2.png" height="300"/>
 
 ### image file
 
-    imgurl <- system.file("figures/cat.png", package="hexSticker")
-    sticker(imgurl, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=.6,
-            filename="inst/figures/imgfile.png")
+``` r
+imgurl <- system.file("figures/cat.png", package="hexSticker")
+sticker(imgurl, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=.6,
+        filename="inst/figures/imgfile.png")
+```
 
 <img src="inst/figures/imgfile.png" height="300"/>
 
 ### Google fonts
 
-    library(showtext)
-    ## Loading Google fonts (http://www.google.com/fonts)
-    font_add_google("Gochi Hand", "gochi")
-    ## Automatically use showtext to render text for future devices
-    showtext_auto()
+``` r
+library(showtext)
+## Loading Google fonts (http://www.google.com/fonts)
+font_add_google("Gochi Hand", "gochi")
+## Automatically use showtext to render text for future devices
+showtext_auto()
 
-    ## use the ggplot2 example
-    sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_height=1,
-            p_family = "gochi", filename="inst/figures/ggplot2-google-font.png")
+## use the ggplot2 example
+sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_height=1,
+        p_family = "gochi", filename="inst/figures/ggplot2-google-font.png")
+```
 
 <img src="inst/figures/ggplot2-google-font.png" height="300"/>
 
@@ -204,6 +218,7 @@ function to preview sticker. Try `plot(s)` :).
 [<img src="https://raw.githubusercontent.com/jwood000/RcppAlgos/master/inst/figures/RcppAlgos-logo.png" height="120"/>](https://github.com/jwood000/RcppAlgos)
 [<img src="https://raw.githubusercontent.com/VLucet/ropencan/master/inst/rgovcan_hex.png" height="120"/>](https://github.com/VLucet/rgovcan)
 [<img src="https://github.com/potterzot/rnassqs/raw/master/inst/figures/rnassqs.png" height="120"/>](https://github.com/potterzot/rnassqs)
+[<img src="https://raw.githubusercontent.com/prdm0/ropenblas/master/logo.png" height="120"/>](https://github.com/prdm0/ropenblas)
 [<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
 [<img src="https://raw.githubusercontent.com/QiHongchao/SampleSize4ClinicalTrials/master/man/logo/logo.png" height="120"/>](https://github.com/QiHongchao/SampleSize4ClinicalTrials)
 [<img src="https://github.com/thiyangt/seer/raw/master/logo/seer.png" height="120"/>](https://github.com/thiyangt/seer/raw/master/logo/seer.png)
