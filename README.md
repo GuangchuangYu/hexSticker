@@ -177,7 +177,6 @@ function to preview sticker. Try `plot(s)` :).
 [<img src="https://github.com/graemeleehickey/joineRML/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineRML)
 [<img src="https://raw.githubusercontent.com/juliasilge/janeaustenr/master/tools/janeaustenr.png" height="120"/>](https://github.com/juliasilge/janeaustenr/tree/master/tools)
 [<img src="https://github.com/ryansar/lungct/raw/master/inst/extdata/logo.png" height="120"/>](https://github.com/ryansar/lungct)
-[<img src="https://raw.githubusercontent.com/dieghernan/mapSpain/master/man/figures/logo.png" height="120"/>](https://github.com/dieghernan/mapSpain)
 [<img src="https://raw.githubusercontent.com/gpaux/Mediana/master/inst/figures/hexMediana.png" height="120"/>](https://github.com/gpaux/Mediana)
 [<img src="https://github.com/keblu/MSGARCH/raw/master/hexmsgarch_small.png" height="120"/>](https://github.com/keblu/MSGARCH)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/MSnbase/MSnbase.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/MSnbase)
@@ -244,6 +243,7 @@ function to preview sticker. Try `plot(s)` :).
 ### Stickers for organizations
 
 [<img src="https://shanmdphd.github.io/hex/cryptokor.png" height="120"/>](https://github.com/cryptokor)
+[<img src="https://github.com/SocialScienceDataLab/methods-bites-logo/blob/main/DMU-logo.png" height="120"/>](https://www.mzes.uni-mannheim.de/socialsciencedatalab/)
 [<img src="https://raw.githubusercontent.com/MEDSL/resources/master/images/medsl.png" height="120"/>](https://github.com/MEDSL/)
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
 [<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
