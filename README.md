@@ -159,6 +159,7 @@ function to preview sticker. Try `plot(s)` :).
 [<img src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png" height="120"/>](https://github.com/Waller-SUSAN/envi)
 [<img src="https://raw.githubusercontent.com/CWWhitney/ethnobotanyR/master/vignettes/ethnobotanyR.png" height="120"/>](https://github.com/CWWhitney/ethnobotanyR)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
+[<img src="https://github.com/wangjiaxuan666/fixbatch/blob/main/man/figures/fixbatch_hexSticker.png" height="120"/>](https://github.com/wangjiaxuan666/fixbatch)
 [<img src="https://github.com/Waller-SUSAN/gateR/blob/master/man/figures/gateR.png" height="120"/>](https://github.com/Waller-SUSAN/gateR)
 [<img src="https://github.com/ipeaGIT/geobr/raw/master/r-package/man/figures/geobr_logo_b.png" height="120"/>](https://github.com/ipeaGIT/geobr)
 [<img src="https://www.samabbott.co.uk/getTBinR/reference/figures/logo.png" height="120"/>](https://www.samabbott.co.uk/getTBinR/)
