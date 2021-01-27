@@ -211,6 +211,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/EnriquePH/OEIS.R/master/sticker/OEIS.R-sticker.png" height="120"/>](https://github.com/EnriquePH/OEIS.R)
 [<img src="https://raw.githubusercontent.com/ox-it/oidnChaRts/master/data-raw/oidnChaRt-sticker.png" height="120"/>](https://github.com/ox-it/oidnChaRts/tree/master/data-raw)
 [<img src="https://raw.githubusercontent.com/RGLab/openCyto/master/logo_mid.png" height="120"/>](http://github.com/RGLab/openCyto)
+[<img src="https://github.com/DARTH-git/OpenTree/blob/main/openLogo.png" height="120"/>](https://github.com/DARTH-git/OpenTree)
 [<img src="https://github.com/cosimameyer/overviewR/blob/master/man/figures/logo.png" height="120"/>](https://github.com/cosimameyer/overviewR)
 [<img src="https://raw.githubusercontent.com/cbg-ethz/perturbatr/122cdd1516aa13d967677050dbf4fe08cfe66c7c/inst/figure/sticker.png" height="120"/>](https://github.com/cbg-ethz/perturbatr)
 [<img src="https://raw.githubusercontent.com/uptake/pkgnet/master/man/figures/logo.png" height="120"/>](https://uptake.github.io/pkgnet/)
