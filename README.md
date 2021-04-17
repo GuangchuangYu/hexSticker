@@ -238,6 +238,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/machiela-lab/sparrpowR/blob/master/man/figures/sparrpowR.png" height="120" />](https://github.com/machiela-lab/sparrpowR)
 [<img src="https://raw.githubusercontent.com/HaydenMacDonald/squashinformr/master/man/figures/logo.png" height="120" />](https://github.com/HaydenMacDonald/squashinformr)
 [<img src="https://github.com/rrrlw/TDAstats/raw/master/man/figures/HexTDA.png" height="120" />](https://github.com/rrrlw/TDAstats)
+[<img src="https://raw.githubusercontent.com/rOpenSpain/tidyBdE/master/man/figures/logo.png" height="120"/>](https://github.com/rOpenSpain/mapSpain)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/treeio/treeio.png" height="120"/>](https://www.bioconductor.org/packages/treeio)
 [<img src="https://raw.githubusercontent.com/wenlong-liu/usfertilizer_sticker/master/usfertilizer.png" height="120"/>](https://github.com/wenlong-liu/usfertilizer)
 [<img src="https://raw.githubusercontent.com/sjmgarnier/viridis/master/hex_logo/viridis.png" height="120"/>](https://github.com/sjmgarnier/viridis)
