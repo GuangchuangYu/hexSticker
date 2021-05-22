@@ -1,3 +1,10 @@
+---
+html_preview: false
+output:
+  md_document:
+    variant: gfm
+---
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # hexSticker: create hexagon sticker in R
@@ -165,12 +172,14 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/lpantano/DEGreport/raw/master/inst/sticker/degreport.png" height="120"/>](https://github.com/lpantano/DEGreport)
 [<img src="https://raw.githubusercontent.com/villegar/dive/master/inst/images/logo.png" height="120"/>](https://github.com/villegar/dive)
 [<img src="https://github.com/tbradley1013/dragondown/raw/master/man/figures/dragondown.png" height="120"/>](https://github.com/tbradley1013/dragondown)
+[<img src="https://github.com/calcita/ech/blob/master/man/figures/ech_logo.png" height="120"/>](https://github.com/calcita/ech)
 [<img src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png" height="120"/>](https://github.com/Waller-SUSAN/envi)
 [<img src="https://raw.githubusercontent.com/CWWhitney/ethnobotanyR/master/vignettes/ethnobotanyR.png" height="120"/>](https://github.com/CWWhitney/ethnobotanyR)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 [<img src="https://github.com/wangjiaxuan666/fixbatch/blob/main/man/figures/fixbatch_hexSticker.png" height="120"/>](https://github.com/wangjiaxuan666/fixbatch)
 [<img src="https://github.com/Waller-SUSAN/gateR/blob/master/man/figures/gateR.png" height="120"/>](https://github.com/Waller-SUSAN/gateR)
 [<img src="https://github.com/ipeaGIT/geobr/raw/master/r-package/man/figures/geobr_logo_b.png" height="120"/>](https://github.com/ipeaGIT/geobr)
+[<img src="https://github.com/RichDeto/geouy/blob/master/man/figures/geouy_logo_b.png" height="120"/>](https://github.com/RichDeto/geouy)
 [<img src="https://www.samabbott.co.uk/getTBinR/reference/figures/logo.png" height="120"/>](https://www.samabbott.co.uk/getTBinR/)
 [<img src="https://raw.githubusercontent.com/strengejacke/ggeffects/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/ggeffects)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ggtree/ggtree.png" height="120"/>](https://github.com/GuangchuangYu/ggtree)
