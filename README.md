@@ -1,10 +1,3 @@
----
-html_preview: false
-output:
-  md_document:
-    variant: gfm
----
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # hexSticker: create hexagon sticker in R
