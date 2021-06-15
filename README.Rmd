@@ -17,7 +17,7 @@ library("hexSticker")
 
 ## :writing_hand: Author
 
-Guangchuang YU <https://guangchuangyu.github.io>
+Guangchuang YU <https://yulab-smu.top>
 
 School of Basic Medical Sciences, Southern Medical University
 

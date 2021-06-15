@@ -9,7 +9,7 @@
 
 ## :writing\_hand: Author
 
-Guangchuang YU <https://guangchuangyu.github.io>
+Guangchuang YU <https://yulab-smu.top>
 
 School of Basic Medical Sciences, Southern Medical University
 
@@ -167,6 +167,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/tbradley1013/dragondown/raw/master/man/figures/dragondown.png" height="120"/>](https://github.com/tbradley1013/dragondown)
 [<img src="https://github.com/calcita/ech/blob/master/man/figures/ech_logo.png" height="120"/>](https://github.com/calcita/ech)
 [<img src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png" height="120"/>](https://github.com/Waller-SUSAN/envi)
+[<img src="https://github.com/avkarandikar/eparlibscrapR/man/figures/logo.png" height="120"/>](https://github.com/avkarandikar/eparlibscrapR)
 [<img src="https://raw.githubusercontent.com/CWWhitney/ethnobotanyR/master/vignettes/ethnobotanyR.png" height="120"/>](https://github.com/CWWhitney/ethnobotanyR)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 [<img src="https://github.com/wangjiaxuan666/fixbatch/blob/main/man/figures/fixbatch_hexSticker.png" height="120"/>](https://github.com/wangjiaxuan666/fixbatch)
