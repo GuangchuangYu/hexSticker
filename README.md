@@ -2,12 +2,12 @@
 
 # hexSticker: create hexagon sticker in R
 
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 
-## :writing\_hand: Author
+## :writing_hand: Author
 
 Guangchuang YU <https://yulab-smu.top>
 
@@ -18,7 +18,7 @@ School of Basic Medical Sciences, Southern Medical University
 
 ------------------------------------------------------------------------
 
-## :arrow\_double\_down: Installation
+## :arrow_double_down: Installation
 
 Install the hexSticker package via CRAN:
 
@@ -135,7 +135,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 ------------------------------------------------------------------------
 
-## :sparkling\_heart: Stickers produced by `hexSticker`
+## :sparkling_heart: Stickers produced by `hexSticker`
 
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit
@@ -192,6 +192,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/graemeleehickey/joineR/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineR)
 [<img src="https://github.com/graemeleehickey/joineRML/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineRML)
 [<img src="https://raw.githubusercontent.com/juliasilge/janeaustenr/master/tools/janeaustenr.png" height="120"/>](https://github.com/juliasilge/janeaustenr/tree/master/tools)
+[<img src="https://github.com/lucius-verus-fan/lmForc/blob/main/logo/lmForc_hexSticker.png" height="120"/>](https://github.com/lucius-verus-fan/lmForc)
 [<img src="https://github.com/ryansar/lungct/raw/master/inst/extdata/logo.png" height="120"/>](https://github.com/ryansar/lungct)
 [<img src="https://github.com/nlmixrdevelopment/lotri/raw/master/man/figures/logo.png" height="120"/>](https://github.com/nlmixrdevelopment/lotri)
 [<img src="https://raw.githubusercontent.com/rOpenSpain/mapSpain/master/man/figures/logo.png" height="120"/>](https://github.com/rOpenSpain/mapSpain)
