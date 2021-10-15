@@ -255,11 +255,9 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 [<img src="https://raw.githubusercontent.com/drisso/zinb_analysis/master/sticker/zinbwave.png" height="120"/>](https://github.com/drisso/zinb_analysis/tree/master/sticker)
 
-
 ### Stickers for events/workshops
 
 [<img src="https://github.com/MonkmanMH/UVic_BIDA302/blob/main/hex_sticker/BIDA302_hex.png" height="120"/>](https://github.com/MonkmanMH/UVic_BIDA302)
-[<img src="https://github.com/MonkmanMH/UVic_BIDA405/blob/main/hex_sticker/BIDA405_hex.png" height="120"/>](https://github.com/MonkmanMH/UVic_BIDA405)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/events/CSAMA/2017/CSAMA2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2017)
 [<img src="https://github.com/Bioconductor/BiocStickers/raw/master/events/CSAMA/2018/CSAMA2018.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2018)
 [<img src="https://github.com/Bioconductor/BiocStickers/raw/master/events/EuroBioc2017/EuroBioc2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/EuroBioc2017)
