@@ -167,6 +167,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/stevecondylios/collidr/master/man/figures/collidr.png" height="120"/>](https://github.com/stevecondylios/collidr)
 [<img src="https://github.com/RhoInc/CRANsearcher/raw/master/inst/image/hex/CRANsearcher_hexSticker.png" height="120"/>](https://github.com/RhoInc/CRANsearcher)
 [<img src="https://github.com/sstoeckl/crypto2/raw/master/man/figures/crypto2_hex.png" height="120"/>](https://github.com/sstoeckl/crypto2)
+[<img src="https://raw.githubusercontent.com/nathansam/datefixR/main/man/figures/sticker.png " height="120"/>](https://github.com/nathansam/DatefixR)
 [<img src="https://raw.githubusercontent.com/eikeluedeling/decisionSupport/master/vignettes/decisionSupport.png" height="120"/>](https://cran.r-project.org/web/packages/decisionSupport/index.html)
 [<img src="https://github.com/lpantano/DEGreport/raw/master/inst/sticker/degreport.png" height="120"/>](https://github.com/lpantano/DEGreport)
 [<img src="https://raw.githubusercontent.com/villegar/dive/master/inst/images/logo.png" height="120"/>](https://github.com/villegar/dive)
