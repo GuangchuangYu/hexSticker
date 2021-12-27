@@ -1,12 +1,17 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+
 # hexSticker: create hexagon sticker in R
+
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/last-week/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
+
+
+
+
 
 ## :writing_hand: Author
 
@@ -17,19 +22,22 @@ School of Basic Medical Sciences, Southern Medical University
 [![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/GuangchuangYu)
 [![](https://img.shields.io/badge/follow%20me%20on-WeChat-green.svg)](https://guangchuangyu.github.io/blog_images/biobabble.jpg)
 
-------------------------------------------------------------------------
+
+----
 
 ## :arrow_double_down: Installation
 
 Install the hexSticker package via CRAN:
 
-``` r
+
+```r
 install.packages("hexSticker")
 ```
 
 You can also install the package via the Github repository.
 
-``` r
+
+```r
 # install.package("remotes")   #In case you have not installed it.
 remotes::install_github("GuangchuangYu/hexSticker")
 ```
@@ -38,49 +46,45 @@ remotes::install_github("GuangchuangYu/hexSticker")
 
 ### imageMagick
 
-`imageMagick` is required for installing `hexSticker`. If you have not
-installed it, please try the following
-[approaches](https://www.imagemagick.org/script/download.php).
+`imageMagick` is required for installing `hexSticker`.  If you have not installed it, please try the following [approaches](https://www.imagemagick.org/script/download.php).
 
-### Fail to load ‘sysfonts’
+### Fail to load 'sysfonts'
 
 In Mac OS, you may need to re-install `sysfont` to properly load it.
 
 Be sure to install `xquartz` first.
 
-``` r
+
+```r
 brew update && brew install homebrew/cask/xquartz
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Examples
 
-> `sticker` function will produce a file with dimension exactly for
-> printing according to <http://hexb.in/sticker.html>
+> `sticker` function will produce a file with dimension exactly for printing according to
+> <http://hexb.in/sticker.html>
+
 
 ### base plot
 
-``` r
+
+```r
 library(hexSticker)
 s <- sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
           package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
           filename="inst/figures/baseplot.png")
 ```
 
-The `sticker()` will generate a figure specified by the `filename`
-parameter. The output of the `sticker()` function is a `ggplot` object,
-e.g. the `s` variable in the above example. Print the object,
-`print(s)`, will display the image. However, the image may slightly
-different from the created image file since the graphic device size are
-different. To solve this issue, `hexSticker` package provides `plot`
-function to preview sticker. Try `plot(s)` :).
+The `sticker()` will generate a figure specified by the `filename` parameter. The output of the `sticker()` function is a `ggplot` object, e.g. the `s` variable in the above example. Print the object, `print(s)`,  will display the image. However, the image may slightly different from the created image file since the graphic device size are different. To solve this issue, `hexSticker` package provides `plot` function to preview sticker. Try `plot(s)` :).
 
 <img src="inst/figures/baseplot.png" height="300"/>
 
 ### lattice
 
-``` r
+
+```r
 library(lattice)
 
 counts <- c(18,17,15,20,10,20,25,13,12)
@@ -96,7 +100,8 @@ sticker(bwplot, package="hexSticker", p_size=20, s_x=1.05, s_y=.8, s_width=2, s_
 
 ### ggplot2
 
-``` r
+
+```r
 library(ggplot2)
 
 p <- ggplot(aes(x = mpg, y = wt), data = mtcars) + geom_point()
@@ -108,9 +113,11 @@ sticker(p, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 <img src="inst/figures/ggplot2.png" height="300"/>
 
+
 ### image file
 
-``` r
+
+```r
 imgurl <- system.file("figures/cat.png", package="hexSticker")
 sticker(imgurl, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=.6,
         filename="inst/figures/imgfile.png")
@@ -120,7 +127,8 @@ sticker(imgurl, package="hexSticker", p_size=20, s_x=1, s_y=.75, s_width=.6,
 
 ### Google fonts
 
-``` r
+
+```r
 library(showtext)
 ## Loading Google fonts (http://www.google.com/fonts)
 font_add_google("Gochi Hand", "gochi")
@@ -134,17 +142,17 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 <img src="inst/figures/ggplot2-google-font.png" height="300"/>
 
-------------------------------------------------------------------------
+
+----
 
 ## :sparkling_heart: Stickers produced by `hexSticker`
 
 > If you use `hexSticker` and want your sticker to be listed here,
-> please feel free to edit
-> [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd),
-> and run `rmarkdown::render("README.Rmd")` in `R` to generate
-> `README.md`.
+> please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd),
+> and run `rmarkdown::render("README.Rmd")` in `R` to generate `README.md`.
 
 **Please put stickers in alphabet order.**
+
 
 ### Stickers for software packages
 
@@ -171,7 +179,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/tbradley1013/dragondown/raw/master/man/figures/dragondown.png" height="120"/>](https://github.com/tbradley1013/dragondown)
 [<img src="https://github.com/calcita/ech/blob/master/man/figures/ech_logo.png" height="120"/>](https://github.com/calcita/ech)
 [<img src="https://github.com/Waller-SUSAN/envi/blob/master/man/figures/envi.png" height="120"/>](https://github.com/Waller-SUSAN/envi)
-[<img src="https://github.com/avkarandikar/eparlibscrapR/man/figures/logo.png" height="120"/>](https://github.com/avkarandikar/eparlibscrapR)
+[<img src="https://raw.githubusercontent.com/asilatakarandikar/eparlibscrapR/main/man/figures/logo.png" height="120"/>](https://github.com/asilatakarandikar/eparlibscrapR/)
 [<img src="https://raw.githubusercontent.com/CWWhitney/ethnobotanyR/master/vignettes/ethnobotanyR.png" height="120"/>](https://github.com/CWWhitney/ethnobotanyR)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 [<img src="https://github.com/sstoeckl/ffdownload/raw/master/man/figures/logo.png" height="120"/>](https://github.com/sstoeckl/ffdownload)
@@ -196,7 +204,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/graemeleehickey/joineR/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineR)
 [<img src="https://github.com/graemeleehickey/joineRML/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineRML)
 [<img src="https://raw.githubusercontent.com/juliasilge/janeaustenr/master/tools/janeaustenr.png" height="120"/>](https://github.com/juliasilge/janeaustenr/tree/master/tools)
-[<img src="https://github.com/lucius-verus-fan/lmForc/blob/main/logo/lmForc_hexSticker.png" height="120"/>](https://github.com/lucius-verus-fan/lmForc)
+[<img src="https://raw.githubusercontent.com/nelson-n/lmForc/main/vignettes/logo/lmForc_hexSticker.png" height="120"/>](https://github.com/nelson-n/lmForc)
 [<img src="https://github.com/ryansar/lungct/raw/master/inst/extdata/logo.png" height="120"/>](https://github.com/ryansar/lungct)
 [<img src="https://github.com/nlmixrdevelopment/lotri/raw/master/man/figures/logo.png" height="120"/>](https://github.com/nlmixrdevelopment/lotri)
 [<img src="https://raw.githubusercontent.com/paezha/macdown/master/man/figures/macdown.png" height="120"/>](https://github.com/paezha/macdown)
@@ -258,6 +266,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 [<img src="https://raw.githubusercontent.com/drisso/zinb_analysis/master/sticker/zinbwave.png" height="120"/>](https://github.com/drisso/zinb_analysis/tree/master/sticker)
 
+
 ### Stickers for events/workshops
 
 [<img src="https://github.com/MonkmanMH/UVic_BIDA302/blob/main/hex_sticker/BIDA302_hex.png" height="120"/>](https://github.com/MonkmanMH/UVic_BIDA302)
@@ -278,18 +287,14 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
 [<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
 
+
 ## Print/order stickers
 
-Sticker designers can make their stickers available via [Sticker
-Mule](https://www.stickermule.com/uses/hexagon-stickers).
+Sticker designers can make their stickers available via [Sticker Mule](https://www.stickermule.com/uses/hexagon-stickers).
 
 ## Related Tools
 
--   [badger](https://github.com/GuangchuangYu/badger): Query information
-    and generate badge for using in README and GitHub Pages.
--   [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image
-    files and graphic objects to be visualized in ‘ggplot2’ graphic
-    system.
--   [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
--   [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create
-    text grob with background shadow.
++ [badger](https://github.com/GuangchuangYu/badger): Query information and generate badge for using in README and GitHub Pages.
++ [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image files and graphic objects to be visualized in 'ggplot2' graphic system.
++ [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
++ [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create text grob with background shadow.
