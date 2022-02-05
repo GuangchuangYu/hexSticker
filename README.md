@@ -212,6 +212,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/gpaux/Mediana/master/inst/figures/hexMediana.png" height="120"/>](https://github.com/gpaux/Mediana)
 [<img src="https://github.com/keblu/MSGARCH/raw/master/hexmsgarch_small.png" height="120"/>](https://github.com/keblu/MSGARCH)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/MSnbase/MSnbase.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/MSnbase)
+[<img src="https://github.com/AlissonRP/mypdf1/raw/main/figures/mypdf1.png" height="120"/>](https://github.com/AlissonRP/mypdf1)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/mzR/mzR_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/mzR)
 [<img src="https://raw.githubusercontent.com/lbenz730/ncaahoopR/master/figures/logo.png" height="120"/>](https://github.com/lbenz730/ncaahoopR)
 [<img src="https://shanmdphd.github.io/hex/ncarbe.png" height="120"/>](https://github.com/asancpt/ncarbe)
