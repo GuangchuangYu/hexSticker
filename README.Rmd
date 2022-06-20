@@ -1,4 +1,8 @@
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+
 # hexSticker: create hexagon sticker in R
+
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
 [![](http://cranlogs.r-pkg.org/badges/grand-total/hexSticker?color=green)](https://cran.r-project.org/package=hexSticker)
