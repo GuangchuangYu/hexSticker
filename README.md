@@ -211,6 +211,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://user-images.githubusercontent.com/20061736/81393545-d662c680-9120-11ea-9963-a737f963bd8d.png" height="120"/>](https://mirkosignorelli.github.io/)
 [<img src="https://raw.githubusercontent.com/stevecondylios/netstat/master/man/figures/netstat.png" height="120"/>](https://github.com/stevecondylios/netstat)
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
+[<img src="https://raw.githubusercontent.com/covid19br/nowcaster/main/man/figures/nowcaster_rev.png" height="120"/>](https://github.com/covid19br/nowcaster)
 [<img src="https://github.com/emsweene/oasis/raw/master/sticker.png" height="120"/>](https://github.com/emsweene/oasis)
 [<img src="https://github.com/StatsGary/OddsPlotty/blob/master/man/figures/OddsPlotty.png" height="120"/>](https://github.com/StatsGary/OddsPlotty)
 [<img src="https://raw.githubusercontent.com/EnriquePH/OEIS.R/master/sticker/OEIS.R-sticker.png" height="120"/>](https://github.com/EnriquePH/OEIS.R)
@@ -287,11 +288,11 @@ Mule](https://www.stickermule.com/uses/hexagon-stickers).
 
 ## Related Tools
 
--   [badger](https://github.com/GuangchuangYu/badger): Query information
-    and generate badge for using in README and GitHub Pages.
--   [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image
-    files and graphic objects to be visualized in ‘ggplot2’ graphic
-    system.
--   [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
--   [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create
-    text grob with background shadow.
+- [badger](https://github.com/GuangchuangYu/badger): Query information
+  and generate badge for using in README and GitHub Pages.
+- [ggimage](https://github.com/GuangchuangYu/ggimage): Supports image
+  files and graphic objects to be visualized in ‘ggplot2’ graphic
+  system.
+- [meme](https://github.com/GuangchuangYu/meme/): Create Meme.
+- [shadowtext](https://github.com/GuangchuangYu/shadowtext/): Create
+  text grob with background shadow.
