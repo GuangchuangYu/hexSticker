@@ -228,6 +228,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://user-images.githubusercontent.com/20061736/84284787-f3821f00-ab3c-11ea-85a7-220982ce518c.png" height="120"/>](https://mirkosignorelli.wixsite.com/home/software)
 [<img src="https://github.com/Yue-Jiang/pzfx/raw/master/man/figures/logo.png" height="120"/>](https://github.com/Yue-Jiang/pzfx)
 [<img src="https://raw.githubusercontent.com/justinmillar/r-gators-hex/master/r-gators.png" height="120"/>](https://github.com/justinmillar/r-gators-hex)
+[<img src="https://raw.githubusercontent.com/jorvlan/open-visualizations/master/R/package_figures/rainclouds_highres.png" height="120"/>](https://github.com/jorvlan/raincloudplots)
 [<img src="https://raw.githubusercontent.com/stevecondylios/rawr/master/man/figures/rawr.png" height="120"/>](https://github.com/stevecondylios/rawr)
 [<img src="https://raw.githubusercontent.com/jwood000/RcppAlgos/main/man/figures/RcppAlgos-logo.png" height="120"/>](https://github.com/jwood000/RcppAlgos)
 [<img src="https://github.com/potterzot/rnassqs/raw/master/inst/figures/rnassqs.png" height="120"/>](https://github.com/potterzot/rnassqs)
