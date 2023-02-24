@@ -175,6 +175,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/FamAgg/FamAgg_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/FamAgg)
 [<img src="https://github.com/sstoeckl/ffdownload/raw/master/man/figures/logo.png" height="120"/>](https://github.com/sstoeckl/ffdownload)
 [<img src="https://github.com/wangjiaxuan666/fixbatch/blob/main/man/figures/fixbatch_hexSticker.png" height="120"/>](https://github.com/wangjiaxuan666/fixbatch)
+[<img src="https://raw.githubusercontent.com/JeffreyRStevens/flashr/main/man/figures/logo.png" height="120"/>](https://github.com/JeffreyRStevens/flashr)
 [<img src="https://raw.githubusercontent.com/lance-waller-lab/gateR/main/man/figures/gateR.png" height="120"/>](https://github.com/Waller-SUSAN/gateR)
 [<img src="https://raw.githubusercontent.com/Matheusbp/GemirTools/master/man/figures/logo.png" height="120"/>](https://github.com/Matheusbp/GemirTools)
 [<img src="https://github.com/ipeaGIT/geobr/raw/master/r-package/man/figures/geobr_logo_b.png" height="120"/>](https://github.com/ipeaGIT/geobr)
@@ -267,6 +268,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/MonkmanMH/UVic_BIDA302/blob/main/hex_sticker/BIDA302_hex.png" height="120"/>](https://github.com/MonkmanMH/UVic_BIDA302)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/events/CSAMA/2017/CSAMA2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2017)
 [<img src="https://github.com/Bioconductor/BiocStickers/raw/master/events/CSAMA/2018/CSAMA2018.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/CSAMA/2018)
+[<img src="https://jeffreyrstevens.quarto.pub/dpavir/logo/dpavir_hex.png" height="120"/>](https://jeffreyrstevens.quarto.pub/dpavir/)
 [<img src="https://github.com/Bioconductor/BiocStickers/raw/master/events/EuroBioc2017/EuroBioc2017.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/events/EuroBioc2017)
 
 ### Stickers for fun
