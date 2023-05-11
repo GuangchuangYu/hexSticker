@@ -187,6 +187,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/strengejacke/ggeffects/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/ggeffects)
 [<img src="https://raw.githubusercontent.com/rivasiker/ggHoriPlot/master/man/images/sticker_ggHoriPlot.png" height="120"/>](https://rivasiker.github.io/ggHoriPlot/)
 [<img src="https://raw.githubusercontent.com/mikmart/ggragged/main/man/figures/logo.png" height="120"/>](https://github.com/mikmart/ggragged)
+[<img src="https://raw.githubusercontent.com/botan/ggrounded/main/man/figures/logo.png" height="120"/>](https://github.com/botan/ggrounded)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ggtree/ggtree.png" height="120"/>](https://github.com/GuangchuangYu/ggtree)
 [<img src="https://raw.githubusercontent.com/MEDSL/resources/master/images/ggmedsl.png" height="120"/>](https://github.com/MEDSL/ggmedsl)
 [<img src="https://raw.githubusercontent.com/dieghernan/giscoR/master/man/figures/logo.png" height="120"/>](https://github.com/dieghernan/giscoR)
