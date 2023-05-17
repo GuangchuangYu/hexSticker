@@ -203,6 +203,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/graemeleehickey/joineR/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineR)
 [<img src="https://github.com/graemeleehickey/joineRML/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineRML)
 [<img src="https://raw.githubusercontent.com/juliasilge/janeaustenr/master/tools/janeaustenr.png" height="120"/>](https://github.com/juliasilge/janeaustenr/tree/master/tools)
+[<img src="https://github.com/cjclarke98/JSUparameters/blob/main/JSUparameters_hex.png" height="120"/>](https://cran.r-project.org/package=JSUparameters)
 [<img src="https://raw.githubusercontent.com/nelson-n/lmForc/main/vignettes/logo/lmForc_hexSticker.png" height="120"/>](https://github.com/nelson-n/lmForc)
 [<img src="https://github.com/ryansar/lungct/raw/master/inst/extdata/logo.png" height="120"/>](https://github.com/ryansar/lungct)
 [<img src="https://github.com/nlmixrdevelopment/lotri/raw/master/man/figures/logo.png" height="120"/>](https://github.com/nlmixrdevelopment/lotri)
