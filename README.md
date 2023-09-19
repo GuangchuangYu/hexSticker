@@ -278,6 +278,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 [<img src="https://github.com/MonkmanMH/EIKIFJB/blob/main/EIKIFJB_sigmar_hex.png" height="120"/>](https://github.com/MonkmanMH/EIKIFJB)
 [<img src="https://www.karada-good.net/wp/wp-content/uploads/2017/04/kemono-320x371.png" height="120"/>](https://www.karada-good.net/analyticsr/r-584)
+[<img src="https://github.com/huyuaaaray/hexSticker/blob/master/man/lattice2.png" height="120"/>](https://github.com/huyuaaaray/hexSticker/blob/master/man/lattice2.png)
 
 ### Stickers for organizations
 
@@ -286,7 +287,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/MEDSL/resources/master/images/medsl.png" height="120"/>](https://github.com/MEDSL/)
 [<img src="https://user-images.githubusercontent.com/9893806/36942615-8f9b0640-1f2b-11e8-85eb-6d2cabcfd62f.png" height="120"/>](https://github.com/shinycrypto)
 [<img src="https://github.com/slc-rug/slcrug-hexsticker/raw/master/R/slcrug_hex.png" height="120"/>](https://github.com/slc-rug/slcrug-hexsticker)
-[<img src="https://github.com/huyuaaaray/hexSticker/blob/master/man/lattice2.png"/>](https://github.com/huyuaaaray/hexSticker/blob/master/man/lattice2.png)
+
 
 ## Print/order stickers
 
