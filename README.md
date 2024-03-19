@@ -196,6 +196,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/dieghernan/igoR/master/man/figures/logo.png" height="120"/>](https://github.com/dieghernan/igoR)
 [<img src="https://raw.githubusercontent.com/SteffenMoritz/imputeR/master/man/figures/imputeR-logo.png" height="120"/>](https://github.com/SteffenMoritz/imputeR)
 [<img src="https://raw.githubusercontent.com/lpantano/isomiRs/178974f22801ffcb68393971e4d072d367938f05/inst/stickers/isomirs.png" height="120"/>](https://github.com/lpantano/isomiRs)
+[<img src="https://github.com/igorlaltuf/ispdata/blob/main/man/figures/logo.png" height="120"/>](https://github.com/igorlaltuf/ispdata)
 [<img src="https://raw.githubusercontent.com/wjakethompson/jayhawkdown/master/man/figures/jayhawkdown.png" height="120"/>](https://github.com/wjakethompson/jayhawkdown)
 [<img src="https://github.com/graemeleehickey/joineR/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineR)
 [<img src="https://github.com/graemeleehickey/joineRML/raw/master/man/figures/hex.png" height="120"/>](https://github.com/graemeleehickey/joineRML)
