@@ -238,6 +238,8 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/jorvlan/open-visualizations/master/R/package_figures/rainclouds_highres.png" height="120"/>](https://github.com/jorvlan/raincloudplots)
 [<img src="https://raw.githubusercontent.com/stevecondylios/rawr/master/man/figures/rawr.png" height="120"/>](https://github.com/stevecondylios/rawr)
 [<img src="https://raw.githubusercontent.com/jwood000/RcppAlgos/main/man/figures/RcppAlgos-logo.png" height="120"/>](https://github.com/jwood000/RcppAlgos)
+[\<img src=“https://johnaponte.github.io/repana/logo.png” align=“right”
+height=“120”](https://johnaponte.github.io/repana)
 [<img src="https://github.com/potterzot/rnassqs/raw/master/inst/figures/rnassqs.png" height="120"/>](https://github.com/potterzot/rnassqs)
 [<img src="https://raw.githubusercontent.com/prdm0/ropenblas/master/logo.png" height="120"/>](https://github.com/prdm0/ropenblas)
 [<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
