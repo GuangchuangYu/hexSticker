@@ -159,6 +159,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/ChIPseeker/ChIPseeker.png" height="120"/>](https://github.com/GuangchuangYu/ChIPseeker)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/cleaver/cleaver.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/cleaver)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/clusterProfiler/clusterProfiler.png" height="120"/>](https://github.com/GuangchuangYu/clusterProfiler)
+[<img src="https://raw.githubusercontent.com/SGS2000/ClustMC/master/man/figures/logo.png" height="120"/>](https://github.com/SGS2000/ClustMC)
 [<img src="https://raw.githubusercontent.com/stevecondylios/collidr/master/man/figures/collidr.png" height="120"/>](https://github.com/stevecondylios/collidr)
 [<img src="https://github.com/RhoInc/CRANsearcher/raw/master/inst/image/hex/CRANsearcher_hexSticker.png" height="120"/>](https://github.com/RhoInc/CRANsearcher)
 [<img src="https://github.com/sstoeckl/crypto2/raw/master/man/figures/crypto2_hex.png" height="120"/>](https://github.com/sstoeckl/crypto2)
@@ -239,8 +240,6 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://raw.githubusercontent.com/jorvlan/open-visualizations/master/R/package_figures/rainclouds_highres.png" height="120"/>](https://github.com/jorvlan/raincloudplots)
 [<img src="https://raw.githubusercontent.com/stevecondylios/rawr/master/man/figures/rawr.png" height="120"/>](https://github.com/stevecondylios/rawr)
 [<img src="https://raw.githubusercontent.com/jwood000/RcppAlgos/main/man/figures/RcppAlgos-logo.png" height="120"/>](https://github.com/jwood000/RcppAlgos)
-[\<img src=“https://johnaponte.github.io/repana/logo.png” align=“right”
-height=“120”](https://johnaponte.github.io/repana)
 [<img src="https://github.com/potterzot/rnassqs/raw/master/inst/figures/rnassqs.png" height="120"/>](https://github.com/potterzot/rnassqs)
 [<img src="https://raw.githubusercontent.com/prdm0/ropenblas/master/logo.png" height="120"/>](https://github.com/prdm0/ropenblas)
 [<img src="https://raw.githubusercontent.com/ellessenne/rsimsum/master/man/figures/hex.png" height="120"/>](https://github.com/ellessenne/rsimsum)
