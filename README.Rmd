@@ -143,7 +143,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 
 > If you use `hexSticker` and want your sticker to be listed here,
 > please feel free to edit [README.Rmd](https://github.com/GuangchuangYu/hexSticker/edit/master/README.Rmd),
-> and run `rmarkdown::render("README.Rmd")` in `R` to generate `README.md`.
+> and run `rmarkdown::render("README.Rmd", rmarkdown::md_document(variant = "gfm"))` in `R` to generate `README.md`.
 
 **Please put stickers in alphabet order.**
 
