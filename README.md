@@ -271,6 +271,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/JaseZiv/worldfootballR/blob/main/man/figures/logo.png" height="120"/>](https://github.com/JaseZiv/worldfootballR)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/xcms/xcms_hl.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/xcms)
 [<img src="https://raw.githubusercontent.com/drisso/zinb_analysis/master/sticker/zinbwave.png" height="120"/>](https://github.com/drisso/zinb_analysis/tree/master/sticker)
+[<img src="https://github.com/Infectious-Diseases-Data-Observatory/worlddatr/tree/main/man/figures/worlddatr_logo.png" height="120"/>](https://github.com/Infectious-Diseases-Data-Observatory/worlddatr)
 
 ### Stickers for events/workshops
 
