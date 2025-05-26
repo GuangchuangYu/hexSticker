@@ -58,7 +58,7 @@ Be sure to install `xquartz` first.
 brew update && brew install homebrew/cask/xquartz
 ```
 
----[<img src="https://raw.githubusercontent.com/Fifis/pnd/master/inst/figures/pnd-logo.png" height="120"/>](https://github.com/Fifis/pnd)
+---
 
 ## Examples
 
