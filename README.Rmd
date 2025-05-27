@@ -240,6 +240,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://user-images.githubusercontent.com/20061736/162180793-072613f0-a93e-4ef6-b0c4-b8d8a45d770a.png" height="120"/>](https://mirkosignorelli.github.io/r.html)
 [<img src="https://raw.githubusercontent.com/cbg-ethz/perturbatr/122cdd1516aa13d967677050dbf4fe08cfe66c7c/inst/figure/sticker.png" height="120"/>](https://github.com/cbg-ethz/perturbatr)
 [<img src="https://raw.githubusercontent.com/uptake/pkgnet/master/man/figures/logo.png" height="120"/>](https://uptake.github.io/pkgnet/)
+[<img src="https://raw.githubusercontent.com/Fifis/pnd/master/inst/figures/pnd-logo.png" height="120"/>](https://github.com/Fifis/pnd)
 [<img src="https://raw.githubusercontent.com/dmi3kno/polite/master/data-raw/sticker.png" height="120"/>](https://github.com/dmi3kno/polite)
 [<img src="https://raw.githubusercontent.com/nrennie/PrettyCols/main/man/figures/logo.png" height="120"/>](https://github.com/nrennie/PrettCyCols)
 [<img src="https://raw.githubusercontent.com/Bioconductor/BiocStickers/master/pRoloc/pRoloc.png" height="120"/>](https://github.com/Bioconductor/BiocStickers/tree/master/pRoloc)
