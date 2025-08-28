@@ -184,6 +184,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/ipeaGIT/geobr/raw/master/r-package/man/figures/geobr_logo_b.png" height="120"/>](https://github.com/ipeaGIT/geobr)
 [<img src="https://github.com/RichDeto/geouy/blob/master/man/figures/geouy_logo_b.png" height="120"/>](https://github.com/RichDeto/geouy)
 [<img src="https://www.samabbott.co.uk/getTBinR/reference/figures/logo.png" height="120"/>](https://www.samabbott.co.uk/getTBinR/)
+[<img src="https://raw.githubusercontent.com/ejade42/ggDNAvis/main/man/figures/logo.png" height="120"/>](https://github.com/ejade42/ggDNAvis)
 [<img src="https://raw.githubusercontent.com/strengejacke/ggeffects/master/man/figures/logo.png" height="120"/>](https://github.com/strengejacke/ggeffects)
 [<img src="https://raw.githubusercontent.com/rivasiker/ggHoriPlot/master/man/images/sticker_ggHoriPlot.png" height="120"/>](https://rivasiker.github.io/ggHoriPlot/)
 [<img src="https://raw.githubusercontent.com/mikmart/ggragged/main/man/figures/logo.png" height="120"/>](https://github.com/mikmart/ggragged)
