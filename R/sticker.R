@@ -43,9 +43,10 @@
 ##' graphics devices please see the documentation of [ggplot2::ggsave()].
 ##' @return gg object
 ##' @importFrom ggplot2 ggplot
-##' @importFrom ggplot2 aes_
+##' @importFrom ggplot2 aes
 ##' @importFrom ggimage geom_subview
 ##' @importFrom ggimage geom_image
+##' @importFrom rlang sym
 ##' @export
 ##' @examples
 ##' library(ggplot2)
@@ -70,7 +71,7 @@ sticker <- function(subplot, s_x=.8, s_y=.75, s_width=.4, s_height=.5,
 
     if (inherits(subplot, "character")) {
         d <- data.frame(x=s_x, y=s_y, image=subplot)
-        sticker <- hex + geom_image(aes_(x=~x, y=~y, image=~image),
+        sticker <- hex + geom_image(aes(x=!!sym('x'), y=!!sym('y'), image=!!sym('image')),
                                     d, size=s_width, asp=asp
                                     )
     } else {
@@ -225,7 +226,7 @@ geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg",
     d <- data.frame(x = x,
                     y = y,
                     url = url)
-    geom_text(aes_(x=~x, y=~y, label=~url),
+    geom_text(aes(x=!!sym('x'), y=!!sym('y'), label=!!sym('url')),
               data = d,
               size = size,
               color = color,
@@ -243,7 +244,7 @@ geom_url <- function(url="www.bioconductor.org", x=1, y=0.08, family="Aller_Rg",
 ##' @param fill color of hexagon
 ##' @param color color of border
 ##' @return hexagon layer
-##' @importFrom ggplot2 aes_
+##' @importFrom ggplot2 aes
 ##' @importFrom ggplot2 geom_polygon
 ## @importFrom ggforce geom_circle
 ##' @export
@@ -258,7 +259,7 @@ geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
     hexd <- data.frame(x = 1+c(rep(-sqrt(3)/2, 2), 0, rep(sqrt(3)/2, 2), 0),
                        y = 1+c(0.5, -0.5, -1, -0.5, 0.5, 1))
     hexd <- rbind(hexd, hexd[1, ])
-    geom_polygon(aes_(x=~x, y=~y), data=hexd,
+    geom_polygon(aes(x=!!sym('x'), y=!!sym('y')), data=hexd,
                  size = size, fill = fill, color = color)
 }
 
@@ -277,19 +278,19 @@ white_around_hex <- function(size = 1.2) {
   y_vertices <- 1+c(0.5, -0.5, -1, -0.5, 0.5, 1)
 
   list(
-  ggplot2::geom_polygon(mapping = aes_(x = ~x, y = ~y),
+  ggplot2::geom_polygon(mapping = aes(x = !!sym('x'), y = !!sym('y')),
                         data = data.frame(x = c(x_lims[1], x_lims[1], x_vertices[6]),
                                           y = c(y_vertices[1], y_lims[2], y_lims[2])),
                         fill = 'white'),
-  ggplot2::geom_polygon(mapping = aes_(x = ~x, y = ~y),
+  ggplot2::geom_polygon(mapping = aes(x = !!sym('x'), y = !!sym('y')),
                         data = data.frame(x = c(x_vertices[6], x_lims[2], x_lims[2]),
                                           y = c(y_lims[2], y_lims[2], y_vertices[5])),
                         fill = 'white'),
-  ggplot2::geom_polygon(mapping = aes_(x = ~x, y = ~y),
+  ggplot2::geom_polygon(mapping = aes(x = !!sym('x'), y = !!sym('y')),
                         data = data.frame(x = c(x_vertices[3], x_lims[2], x_lims[2]),
                                           y = c(y_lims[1], y_vertices[4], y_lims[1])),
                         fill = 'white'),
-  ggplot2::geom_polygon(mapping = aes_(x = ~x, y = ~y),
+  ggplot2::geom_polygon(mapping = aes(x = !!sym('x'), y = !!sym('y')),
                         data = data.frame(x = c(x_lims[1], x_lims[1], x_vertices[3]),
                                           y = c(y_lims[1], y_vertices[2], y_lims[1])),
                         fill = 'white')

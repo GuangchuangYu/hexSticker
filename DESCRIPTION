@@ -1,6 +1,6 @@
 Package: hexSticker
 Title: Create Hexagon Sticker in R
-Version: 0.4.9
+Version: 0.5.0
 Authors@R: c(person(given = "Guangchuang", family = "Yu",        email = "guangchuangyu@gmail.com",   role = c("aut", "cre")),
              person(given = "Laurent",     family = "Gatto",     email = "lg390@cam.ac.uk",           role = "ctb"),
              person(given = "Johannes",    family = "Rainer",    email = "johannes.rainer@eurac.edu", role = "ctb"),
@@ -16,6 +16,7 @@ Imports:
     ggplot2,
     grDevices,
     hexbin,
+    rlang,
     showtext,
     stats,
     sysfonts,
@@ -27,5 +28,5 @@ URL: https://github.com/GuangchuangYu/hexSticker
 BugReports: https://github.com/GuangchuangYu/hexSticker/issues
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.3.0
+RoxygenNote: 7.3.3
 Roxygen: list(markdown = TRUE)

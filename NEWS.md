@@ -1,3 +1,7 @@
+# CHANGES IN VERSION 0.5.0
+
++ remove deprecated `aes_()` (2025-09-18, Thu)
+
 # CHANGES IN VERSION 0.4.8
 
 + support passing `expression()` as package name (via the `package` parameter) (2020-08-20, Thu)
