@@ -260,7 +260,7 @@ geom_hexagon <- function(size=1.2, fill="#1881C2", color="#87B13F") {
                        y = 1+c(0.5, -0.5, -1, -0.5, 0.5, 1))
     hexd <- rbind(hexd, hexd[1, ])
     geom_polygon(aes(x=!!sym('x'), y=!!sym('y')), data=hexd,
-                 size = size, fill = fill, color = color)
+                 linewidth = size, fill = fill, color = color)
 }
 
 

@@ -1,3 +1,7 @@
+# CHANGES IN VERSION 0.5.0.001
+
++ use `linewidth` to fix warning (2025-09-20, Sat, #190)
+
 # CHANGES IN VERSION 0.5.0
 
 + remove deprecated `aes_()` (2025-09-18, Thu)
