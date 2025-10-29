@@ -194,6 +194,7 @@ sticker(p, package="hexSticker", p_size=22, s_x=1, s_y=.75, s_width=1.3, s_heigh
 [<img src="https://github.com/montesmariana/glossr/raw/main/man/figures/logo.png" height="120"/>](https://github.com/montesmariana/glossr)
 [<img src="https://github.com/greta-dev/greta/raw/master/logos/greta_hex.png" height="120"/>](https://github.com/greta-dev/greta/tree/master/logos)
 [<img src="https://raw.githubusercontent.com/calvinmfloyd/grobblR/master/man/figures/logo.png" height="120"/>](https://github.com/calvinmfloyd/grobblR)
+[<img src="https://raw.githubusercontent.com/ckntav/gVenn/refs/heads/master/man/figures/gVenn_hex_sticker.png" height="120"/>](https://github.com/ckntav/gVenn)
 [<img src="https://raw.githubusercontent.com/mikemahoney218/heddlr/master/man/figures/heddlr-badge.png" height="120"/>](https://github.com/mikemahoney218/heddlr)
 [<img src="https://raw.githubusercontent.com/dieghernan/igoR/master/man/figures/logo.png" height="120"/>](https://github.com/dieghernan/igoR)
 [<img src="https://raw.githubusercontent.com/SteffenMoritz/imputeR/master/man/figures/imputeR-logo.png" height="120"/>](https://github.com/SteffenMoritz/imputeR)
