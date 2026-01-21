@@ -1,5 +1,6 @@
-# CHANGES IN VERSION 0.5.0.001
+# CHANGES IN VERSION 0.5.1
 
++ fix border line missing issue when border size is large (2026-01-21, Wed)
 + use `linewidth` to fix warning (2025-09-20, Sat, #190)
 
 # CHANGES IN VERSION 0.5.0

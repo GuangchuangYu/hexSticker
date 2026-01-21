@@ -270,7 +270,7 @@ white_around_hex <- function(size = 1.2) {
   radius <- 1
   h <- radius
   w <- sqrt(3)/2 * radius
-  m <- 1.02
+  m <- 1.02 + size * 0.02
   x_lims <- c(center-w*m , center+w*m)
   y_lims <- c(center-h*m , center+h*m)
   # starting at left, upper and going around counter-clockwise
@@ -318,7 +318,7 @@ theme_sticker <- function(size=1.2, ...) {
     radius <- 1
     h <- radius
     w <- sqrt(3)/2 * radius
-    m <- 1.02
+    m <- 1.02 + size * 0.04
     list(
       theme_transparent() +
         theme(plot.margin = margin(b = -.2, l= -.2, unit = "lines"),
