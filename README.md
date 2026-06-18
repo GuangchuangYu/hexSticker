@@ -53,7 +53,7 @@ brew update && brew install homebrew/cask/xquartz
 ## Examples
 
 > `sticker` function will produce a file with dimension exactly for
-> printing according to <http://hexb.in/sticker.html>
+> printing.
 
 ### base plot
 
